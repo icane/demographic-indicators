@@ -88,12 +88,12 @@ params = {
             'label': '001-008  I.Enfermedades infecciosas y parasitarias',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    001-008  I.Enfermedades infecciosas y parasitarias_Cantabria',
-                'TM_    001-008  I.Enfermedades infecciosas y parasitarias_España'],
+                'TM_    001-008  I.Enfermedades infecciosas y parasitarias_Cantabria'],
+                # 'TM_    001-008  I.Enfermedades infecciosas y parasitarias_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '001-008.json-stat'
@@ -103,12 +103,12 @@ params = {
             'label': '009-041  II.Tumores',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    009-041  II.Tumores_Cantabria',
-                'TM_    009-041  II.Tumores_España'],
+                'TM_    009-041  II.Tumores_Cantabria'],
+                # 'TM_    009-041  II.Tumores_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '009-041.json-stat'
@@ -118,12 +118,12 @@ params = {
             'label': '042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad_Cantabria',
-                'TM_    042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad_España'],
+                'TM_    042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad_Cantabria'],
+                # 'TM_    042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '042-043.json-stat'
@@ -133,12 +133,12 @@ params = {
             'label': '044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas_Cantabria',
-                'TM_    044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas_España'],
+                'TM_    044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas_Cantabria'],
+                # 'TM_    044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '044-045.json-stat'
@@ -148,12 +148,12 @@ params = {
             'label': '046-049  V.Trastornos mentales y del comportamiento',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    046-049  V.Trastornos mentales y del comportamiento_Cantabria',
-                'TM_    046-049  V.Trastornos mentales y del comportamiento_España'],
+                'TM_    046-049  V.Trastornos mentales y del comportamiento_Cantabria'],
+                # 'TM_    046-049  V.Trastornos mentales y del comportamiento_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '046-049.json-stat'
@@ -163,12 +163,12 @@ params = {
             'label': '050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos_Cantabria',
-                'TM_    050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos_España'],
+                'TM_    050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos_Cantabria'],
+                # 'TM_    050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '050-052.json-stat'
@@ -178,12 +178,12 @@ params = {
             'label': '053-061 IX.Enfermedades del sistema circulatorio',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    053-061 IX.Enfermedades del sistema circulatorio_Cantabria',
-                'TM_    053-061 IX.Enfermedades del sistema circulatorio_España'],
+                'TM_    053-061 IX.Enfermedades del sistema circulatorio_Cantabria'],
+                # 'TM_    053-061 IX.Enfermedades del sistema circulatorio_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '053-061.json-stat'
@@ -193,12 +193,12 @@ params = {
             'label': '062-067  X.Enfermedades del sistema respiratorio',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    062-067  X.Enfermedades del sistema respiratorio_Cantabria',
-                'TM_    062-067  X.Enfermedades del sistema respiratorio_España'],
+                'TM_    062-067  X.Enfermedades del sistema respiratorio_Cantabria'],
+                # 'TM_    062-067  X.Enfermedades del sistema respiratorio_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '062-067.json-stat'
@@ -208,12 +208,12 @@ params = {
             'label': '068-072  XI.Enfermedades del sistema digestivo',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    068-072  XI.Enfermedades del sistema digestivo_Cantabria',
-                'TM_    068-072  XI.Enfermedades del sistema digestivo_España'],
+                'TM_    068-072  XI.Enfermedades del sistema digestivo_Cantabria'],
+                # 'TM_    068-072  XI.Enfermedades del sistema digestivo_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '068-072.json-stat'
@@ -223,12 +223,12 @@ params = {
             'label': '073  XII.Enfermedades de la piel y del tejido subcutáneo',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    073  XII.Enfermedades de la piel y del tejido subcutáneo_Cantabria',
-                'TM_    073  XII.Enfermedades de la piel y del tejido subcutáneo_España'],
+                'TM_    073  XII.Enfermedades de la piel y del tejido subcutáneo_Cantabria'],
+                # 'TM_    073  XII.Enfermedades de la piel y del tejido subcutáneo_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '073.json-stat'
@@ -238,12 +238,12 @@ params = {
             'label': '074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo_Cantabria',
-                'TM_    074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo_España'],
+                'TM_    074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo_Cantabria'],
+                # 'TM_    074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '074-076.json-stat'
@@ -253,12 +253,12 @@ params = {
             'label': '077-080  XIV.Enfermedades del sistema genitourinario',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    077-080  XIV.Enfermedades del sistema genitourinario_Cantabria',
-                'TM_    077-080  XIV.Enfermedades del sistema genitourinario_España'],
+                'TM_    077-080  XIV.Enfermedades del sistema genitourinario_Cantabria'],
+                # 'TM_    077-080  XIV.Enfermedades del sistema genitourinario_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '077-080.json-stat'
@@ -268,12 +268,12 @@ params = {
             'label': '081  XV.Embarazo, parto y puerperio',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    081  XV.Embarazo, parto y puerperio_Cantabria',
-                'TM_    081  XV.Embarazo, parto y puerperio_España'],
+                'TM_    081  XV.Embarazo, parto y puerperio_Cantabria'],
+                # 'TM_    081  XV.Embarazo, parto y puerperio_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '081.json-stat'
@@ -283,12 +283,12 @@ params = {
             'label': '082  XVI.Afecciones originadas en el periodo perinatal',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    082  XVI.Afecciones originadas en el periodo perinatal_Cantabria',
-                'TM_    082  XVI.Afecciones originadas en el periodo perinatal_España'],
+                'TM_    082  XVI.Afecciones originadas en el periodo perinatal_Cantabria'],
+                # 'TM_    082  XVI.Afecciones originadas en el periodo perinatal_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '082.json-stat'
@@ -298,12 +298,12 @@ params = {
             'label': '083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas_Cantabria',
-                'TM_    083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas_España'],
+                'TM_    083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas_Cantabria'],
+                # 'TM_    083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '083-085.json-stat'
@@ -313,12 +313,12 @@ params = {
             'label': '086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte_Cantabria',
-                'TM_    086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte_España'],
+                'TM_    086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte_Cantabria'],
+                # 'TM_    086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '086-089.json-stat'
@@ -328,12 +328,12 @@ params = {
             'label': '090-102  XX.Causas externas de mortalidad',
             'category': 'Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    090-102  XX.Causas externas de mortalidad_Cantabria',
-                'TM_    090-102  XX.Causas externas de mortalidad_España'],
+                'TM_    090-102  XX.Causas externas de mortalidad_Cantabria'],
+                # 'TM_    090-102  XX.Causas externas de mortalidad_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '090-102.json-stat'
@@ -343,12 +343,12 @@ params = {
             'label': '062  Influenza (gripe) (incluye gripe aviar y gripe A)',
             'category': 'Defunciones causas 062-067  X.Enfermedades del sistema respiratorio. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    062  Influenza (gripe) (incluye gripe aviar y gripe A)_Cantabria',
-                'TM_    062  Influenza (gripe) (incluye gripe aviar y gripe A)_España'],
+                'TM_    062  Influenza (gripe) (incluye gripe aviar y gripe A)_Cantabria'],
+                # 'TM_    062  Influenza (gripe) (incluye gripe aviar y gripe A)_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '062.json-stat'
@@ -358,12 +358,12 @@ params = {
             'label': '063  Neumonía',
             'category': 'Defunciones causas 062-067  X.Enfermedades del sistema respiratorio. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    063  Neumonía_Cantabria',
-                'TM_    063  Neumonía_España'],
+                'TM_    063  Neumonía_Cantabria'],
+                # 'TM_    063  Neumonía_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '063.json-stat'
@@ -373,12 +373,12 @@ params = {
             'label': '064  Enfermedades crónicas de las vías respiratorias inferiores (excepto asma)',
             'category': 'Defunciones causas 062-067  X.Enfermedades del sistema respiratorio. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    064  Enfermedades crónicas de las vías respiratorias inferiores (excepto asma)_Cantabria',
-                'TM_    064  Enfermedades crónicas de las vías respiratorias inferiores (excepto asma)_España'],
+                'TM_    064  Enfermedades crónicas de las vías respiratorias inferiores (excepto asma)_Cantabria'],
+                # 'TM_    064  Enfermedades crónicas de las vías respiratorias inferiores (excepto asma)_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '064.json-stat'
@@ -388,12 +388,12 @@ params = {
             'label': '065  Asma',
             'category': 'Defunciones causas 062-067  X.Enfermedades del sistema respiratorio. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    065  Asma_Cantabria',
-                'TM_    065  Asma_España'],
+                'TM_    065  Asma_Cantabria'],
+                # 'TM_    065  Asma_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '065.json-stat'
@@ -403,12 +403,12 @@ params = {
             'label': '066  Insuficiencia respiratoria',
             'category': 'Defunciones causas 062-067  X.Enfermedades del sistema respiratorio. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    066  Insuficiencia respiratoria_Cantabria',
-                'TM_    066  Insuficiencia respiratoria_España'],
+                'TM_    066  Insuficiencia respiratoria_Cantabria'],
+                # 'TM_    066  Insuficiencia respiratoria_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '066.json-stat'
@@ -418,12 +418,12 @@ params = {
             'label': '067  Otras enfermedades del sistema respiratorio',
             'category': 'Defunciones causas 062-067  X.Enfermedades del sistema respiratorio. Tasas de defunciones por 100.000 habitantes',
             'variables': [
-                'TM_    067  Otras enfermedades del sistema respiratorio_Cantabria',
-                'TM_    067  Otras enfermedades del sistema respiratorio_España'],
+                'TM_    067  Otras enfermedades del sistema respiratorio_Cantabria'],
+                # 'TM_    067  Otras enfermedades del sistema respiratorio_España'],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
-                'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
+                # 'España': {'decimals': 0, 'label': 'Tanto por cienmil'}
             },
             'note': ['Los datos de 2019 son provisionales'],
             'json': '067.json-stat'

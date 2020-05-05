@@ -53,9 +53,9 @@ df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
 
-    variables = [
-        'Año', 'Mes',
-        cfg.series[key].variables[0], cfg.series[key].variables[1]]
+    variables = ['Año', 'Mes', cfg.series[key].variables[0]]
+    if (len(cfg.series[key].variables) == 2):
+        variables.append(cfg.series[key].variables[1])
     df = data[cfg.file]\
         [cfg.series[key].sheet][variables].copy()
 
@@ -64,10 +64,12 @@ for key in cfg.series:
 
     # Rename variables
     df.rename(
-        columns={
-            cfg.series[key].variables[0]: 'Cantabria',
-            cfg.series[key].variables[1]: 'España'}, 
+        columns={cfg.series[key].variables[0]: 'Cantabria'},
         inplace=True)
+    if (len(cfg.series[key].variables) == 2):
+        df.rename(
+            columns={cfg.series[key].variables[1]: 'España'}, 
+            inplace=True)
 
     # Remove .0 from Año and Mes
     df['Año'] = df['Año'].astype(str).replace('\.0', '', regex=True)
@@ -80,20 +82,25 @@ for key in cfg.series:
     df_cant = df_cant.transpose()
     df_cant.insert(0, 'Categoria', cfg.series[key].category)
     df_cant[' - Indicadores'] = cfg.series[key].label
-    df_esp = df[['Año', 'Mes', 'España']].copy()
-    df_esp = transform(df_esp, cfg.periods.global_deaths, 'España - ')
-    df_esp.set_index('Mes', inplace=True)
-    df_esp = df_esp.transpose()
-    df_esp[' - Indicadores'] = cfg.series[key].label
-    df_cant = df_cant.merge(df_esp, on=' - Indicadores')
+    if (len(cfg.series[key].variables) == 2):
+        df_esp = df[['Año', 'Mes', 'España']].copy()
+        df_esp = transform(df_esp, cfg.periods.global_deaths, 'España - ')
+        df_esp.set_index('Mes', inplace=True)
+        df_esp = df_esp.transpose()
+        df_esp[' - Indicadores'] = cfg.series[key].label
+        df_cant = df_cant.merge(df_esp, on=' - Indicadores')
+
     indicators.append(df_cant)
 
     # Generate JSON-Stat dataset
     df = transform(df, cfg.periods.deaths)
+    vars = ['Cantabria']
+    if (len(cfg.series[key].variables) == 2):
+        vars.append('España')
     json_file = to_json_stat(
         df,
         ['Mes'],
-        ['Cantabria', 'España'],
+        vars,
         cfg.series[key].source)
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \

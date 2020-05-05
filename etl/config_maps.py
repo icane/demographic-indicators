@@ -45,7 +45,7 @@ params = {
             'label': 'Porcentaje de mujeres de 60 y más años respecto total mujeres',
             'variables': ['COD_INE', '% M60_TM'],
             'source': 'ICANE a partir de la explotación de microdatos del Padrón Municipal de Habitantes, INE',
-            'unit':{
+            'unit': {
                 'Porcentaje de mujeres de 60 y más años respecto total mujeres': {'decimals': 2, 'label': '%'}
             },
             'note': [''],

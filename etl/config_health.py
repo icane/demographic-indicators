@@ -68,36 +68,6 @@ params = {
             'note': [''],
             'json': 'camas-funcionamiento.json-stat'
         },
-        'camas_agudos': {
-            'sheet': 'Dotación hospitales',
-            'label': 'Camas de agudos por 1.000 hab',
-            'category': 'Dotación hospitales',
-            'variables': [
-                'Camas de agudos por 1.000 hab_Cantabria',
-                'Camas de agudos por 1.000 hab_España'],
-            'source': 'ICANE a partir de Estadística de Centros Sanitarios de Atención Especializada, Ministerio de Sanidad',
-            'unit':{
-                'Cantabria': {'decimals': 2, 'label': 'Tanto por mil'},
-                'España': {'decimals': 2, 'label': 'Tanto por mil'}
-            },
-            'note': [''],
-            'json': 'camas-agudos.json-stat'
-        },
-        'quirofanos': {
-            'sheet': 'Dotación hospitales',
-            'label': 'Quirófanos por 1.000 hab',
-            'category': 'Dotación hospitales',
-            'variables': [
-                'Quirófanos por 1.000 hab_Cantabria',
-                'Quirófanos por 1.000 hab_España'],
-            'source': 'ICANE a partir de Estadística de Centros Sanitarios de Atención Especializada, Ministerio de Sanidad',
-            'unit':{
-                'Cantabria': {'decimals': 2, 'label': 'Tanto por mil'},
-                'España': {'decimals': 2, 'label': 'Tanto por mil'}
-            },
-            'note': [''],
-            'json': 'quirofanos.json-stat'
-        },
         'hospital_dia': {
             'sheet': 'Dotación hospitales',
             'label': 'Total Puestos Hospital de Día por 100.000 hab',
@@ -142,21 +112,6 @@ params = {
             },
             'note': [''],
             'json': 'camas-funcionamiento-publicos.json-stat'
-        },
-        'camas_agudos_publicos': {
-            'sheet': 'Dotación hospitales',
-            'label': 'Camas de agudos por 1.000 hab. Hospitales públicos',
-            'category': 'Dotación hospitales publicos',
-            'variables': [
-                'HOSP_PUB_Camas de agudos por 1.000 hab_Cantabria',
-                'HOSP_PUB_Camas de agudos por 1.000 hab_España'],
-            'source': 'ICANE a partir de Estadística de Centros Sanitarios de Atención Especializada, Ministerio de Sanidad',
-            'unit':{
-                'Cantabria': {'decimals': 2, 'label': 'Tanto por mil'},
-                'España': {'decimals': 2, 'label': 'Tanto por mil'}
-            },
-            'note': [''],
-            'json': 'camas-agudos-publicos.json-stat'
         },
         'quirofanos_publicos': {
             'sheet': 'Dotación hospitales',
