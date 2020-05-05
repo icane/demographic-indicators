@@ -73,6 +73,8 @@ for key in cfg.series:
 
     # Generate JSON-Stat dataset
     df = transform(df, cfg.periods.demographics)
+    # Exclude rows whose value for Cantabria is NA
+    df = df[df['Cantabria'].notna()]
     json_file = to_json_stat(
         df,
         ['Año'],
