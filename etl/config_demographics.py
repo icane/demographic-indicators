@@ -15,6 +15,7 @@ params = {
             'variables': [
                 'Variación interanual empadronas_Cantabria',
                 'Variación interanual empadronas_España'],
+            'moving_avg': [],
             'source': 'ICANE a partir de la explotación de microdatos del Padrón Municipal de Habitantes, INE',
             'unit':{
                 'Cantabria': {'decimals': 2, 'label': '%'},
@@ -30,6 +31,7 @@ params = {
             'variables': [
                 'Tasa de feminidad_Cantabria',
                 'Tasa de feminidad_España'],
+            'moving_avg': [],
             'source': 'ICANE a partir de la explotación de microdatos del Padrón Municipal de Habitantes, INE',
             'unit':{
                 'Cantabria': {'decimals': 2, 'label': '%'},
@@ -45,6 +47,7 @@ params = {
             'variables': [
                 'Propoción de 60 y más años_Canatbria',
                 'Propoción de 60 y más años_España'],
+            'moving_avg': [],
             'source': 'ICANE a partir de la explotación de microdatos del Padrón Municipal de Habitantes, INE',
             'unit':{
                 'Cantabria': {'decimals': 2, 'label': '%'},
@@ -60,6 +63,7 @@ params = {
             'variables': [
                 'Tasa de feminidad 60 y más años_Cantabria',
                 'Tasa de feminidad 60 y más años_España'],
+            'moving_avg': [],
             'source': 'ICANE a partir de la explotación de microdatos del Padrón Municipal de Habitantes, INE',
             'unit':{
                 'Cantabria': {'decimals': 2, 'label': '%'},
@@ -75,10 +79,15 @@ params = {
             'variables': [
                 'Porporción de hogares unipersonales_Cantabria',
                 'Porporción de hogares unipersonales_España'],
+            'moving_avg': [
+                'Porporción de hogares unipersonales_Cantabria_Media móvil centrada (3 años)',
+                'Porporción de hogares unipersonales_España_Media móvil centrada (3 años)'],
             'source': 'ICANE a partir de la Encuesta Continua de Hogares, INE',
             'unit':{
                 'Cantabria': {'decimals': 2, 'label': '%'},
-                'España': {'decimals': 2, 'label': '%'}
+                'España': {'decimals': 2, 'label': '%'},
+                'Cantabria_MM': {'decimals': 2, 'label': '%'},
+                'España_MM': {'decimals': 2, 'label': '%'}
             },
             'note': [''],
             'json': 'hogares-unipersonales.json-stat'
@@ -90,10 +99,15 @@ params = {
             'variables': [
                 'Proporción de hogares unipersonales de 65 y más años_Cantabria',
                 'Proporción de hogares unipersonales de 65 y más años_España'],
+            'moving_avg': [
+                'Proporción de hogares unipersonales de 65 y más años_Cantabria_Media móvil centrada (3 años)',
+                'Proporción de hogares unipersonales de 65 y más años_España_Media móvil centrada (3 años)'],
             'source': 'ICANE a partir de la Encuesta Continua de Hogares, INE',
             'unit':{
                 'Cantabria': {'decimals': 2, 'label': '%'},
-                'España': {'decimals': 2, 'label': '%'}
+                'España': {'decimals': 2, 'label': '%'},
+                'Cantabria_MM': {'decimals': 2, 'label': '%'},
+                'España_MM': {'decimals': 2, 'label': '%'}
             },
             'note': [''],
             'json': 'hogares-unipersonales65.json-stat'
@@ -105,10 +119,15 @@ params = {
             'variables': [
                 'Tasas de feminidad hogares unipersonales de 65 y + años_Cantabria ',
                 'Tasas de feminidad hogares unipersonales de 65 y + años_España '],
+            'moving_avg': [
+                'Tasas de feminidad hogares unipersonales de 65 y + años_Cantabria_Media móvil centrada (3 años)',
+                'Tasas de feminidad hogares unipersonales de 65 y + años_España_Media móvil centrada (3 años)'],
             'source': 'ICANE a partir de la Encuesta Continua de Hogares, INE',
             'unit':{
                 'Cantabria': {'decimals': 2, 'label': '%'},
-                'España': {'decimals': 2, 'label': '%'}
+                'España': {'decimals': 2, 'label': '%'},
+                'Cantabria_MM': {'decimals': 2, 'label': '%'},
+                'España_MM': {'decimals': 2, 'label': '%'}
             },
             'note': [''],
             'json': 'feminidad-hogares-unipersonales65.json-stat'
