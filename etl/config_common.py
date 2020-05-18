@@ -31,7 +31,9 @@ params = {
 	    'global_health': 6,
         'health': 24,
         'global_deaths': 6,
-        'deaths': 24
+        'deaths': 24,
+        'global_residences': 6,
+        'residences': 24
     }
 }
 
