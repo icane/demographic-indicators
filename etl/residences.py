@@ -33,6 +33,69 @@ def transform(df, periods, prefix=''):
 data = xlsx(cfg.path.input)
 
 # Datasets
+# Centros, plazas y usuarios
+variables = [
+    'Año', 'Centros_Cantabria', 'Centros Residenciales_Cantabria',
+    'Vivienda para mayores_Cantabria', 'Plazas_Cantabria',
+    'Plazas_Centros Residenciales_Cantabria',
+    'Plazas_Vivienda para mayores_Cantabria', 'Usuarios_Cantabria',
+    'Centros_España', 'Centros Residenciales_España',
+    'Vivienda para mayores_España', 'Plazas_España',
+    'Plazas_Centros Residenciales_España',
+    'Plazas_Vivienda para mayores_España', 'Usuarios_España']
+df = data[cfg.file]\
+        [cfg.tables.centros_plazas_usuarios.sheet][variables].copy()
+
+# Drop NA rows, if any
+df.dropna(axis=0, how='all', inplace=True)
+
+# Rename columns
+df.rename(
+        columns={
+            'Centros_Cantabria': 'Centros Cantabria',
+            'Centros Residenciales_Cantabria': 'Centros Residenciales Cantabria',
+            'Vivienda para mayores_Cantabria': 'Vivienda para mayores Cantabria',
+            'Plazas_Cantabria': 'Plazas Cantabria',
+            'Plazas_Centros Residenciales_Cantabria': 'Plazas Centros Residenciales Cantabria',
+            'Plazas_Vivienda para mayores_Cantabria': 'Plazas Vivienda para mayores Cantabria',
+            'Usuarios_Cantabria': 'Usuarios Cantabria',
+            'Centros_España': 'Centros España',
+            'Centros Residenciales_España': 'Centros Residenciales España',
+            'Vivienda para mayores_España': 'Vivienda para mayores España',
+            'Plazas_España': 'Plazas España',
+            'Plazas_Centros Residenciales_España': 'Plazas Centros Residenciales España',
+            'Plazas_Vivienda para mayores_España': 'Plazas Vivienda para mayores España',
+            'Usuarios_España': 'Usuarios España'}, 
+        inplace=True)
+
+# Remove .0 from Año
+df['Año'] = df['Año'].astype(str).replace('\.0', '', regex=True)
+
+# Generate JSON-Stat dataset
+df = transform(df, cfg.periods.residences)
+variables = [
+    'Centros Cantabria', 'Centros Residenciales Cantabria',
+    'Vivienda para mayores Cantabria', 'Plazas Cantabria',
+    'Plazas Centros Residenciales Cantabria',
+    'Plazas Vivienda para mayores Cantabria', 'Usuarios Cantabria',
+    'Centros España', 'Centros Residenciales España',
+    'Vivienda para mayores España', 'Plazas España',
+    'Plazas Centros Residenciales España',
+    'Plazas Vivienda para mayores España', 'Usuarios España']
+json_file = to_json_stat(
+    df,
+    ['Año'],
+    variables,
+    cfg.tables.centros_plazas_usuarios.source)
+json_obj = json.loads(json_file)
+json_obj['dimension']['Variables']['category']['unit'] = \
+    cfg.tables.centros_plazas_usuarios.unit
+json_obj['note'] = cfg.tables.centros_plazas_usuarios.note
+json_file = json.dumps(json_obj)
+write_to_file(json_file, cfg.path.output + \
+    cfg.tables.centros_plazas_usuarios.json)
+
+# global table
 df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:

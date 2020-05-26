@@ -6,6 +6,46 @@ from decouple import config
 
 params = {
     'file': 'Datos_carga_anuales_demo_final.xlsx',
+    'tables': {
+        'centros_plazas_usuarios': {
+            'sheet': 'Residencial',
+            'category': 'Centros, plazas y usuarios',
+            'label': 'Centros, plazas y usuarios',
+            'variables': [
+                'Centros_Cantabria',
+                'Centros Residenciales_Cantabria',
+                'Vivienda para mayores_Cantabria',
+                'Plazas_Cantabria',
+                'Plazas_Centros Residenciales_Cantabria',
+                'Plazas_Vivienda para mayores_Cantabria',
+                'Usuarios_Cantabria',
+                'Centros_España',
+                'Centros Residenciales_España',
+                'Vivienda para mayores_España',
+                'Plazas_España',
+                'Plazas_Centros Residenciales_España',
+                'Plazas_Vivienda para mayores_España',
+                'Usuarios_España'],
+            'source': '',
+            'unit': {
+                'Centros Cantabria': {'decimals': 0, 'label': 'Centros'},
+                'Centros Residenciales Cantabria': {'decimals': 0, 'label': 'Centros'},
+                'Vivienda para mayores Cantabria': {'decimals': 0, 'label': 'Viviendas'},
+                'Plazas Cantabria': {'decimals': 0, 'label': 'Plazas'},
+                'Plazas Centros Residenciales Cantabria': {'decimals': 0, 'label': 'Plazas'},
+                'Plazas Vivienda para mayores Cantabria': {'decimals': 0, 'label': 'Plazas'},
+                'Usuarios Cantabria': {'decimals': 0, 'label': 'Usuarios'},
+                'Centros España': {'decimals': 0, 'label': 'Centros'},
+                'Centros Residenciales España': {'decimals': 0, 'label': 'Centros'},
+                'Vivienda para mayores España': {'decimals': 0, 'label': 'Viviendas'},
+                'Plazas España': {'decimals': 0, 'label': 'Plazas'},
+                'Plazas Centros Residenciales España': {'decimals': 0, 'label': 'Plazas'},
+                'Plazas Vivienda para mayores España': {'decimals': 0, 'label': 'Plazas'},
+                'Usuarios España': {'decimals': 0, 'label': 'Usuarios'}},
+            'note': [''],
+            'json': 'centros-plazas-usuarios.json-stat'
+        }
+    },
     'series': {
         'indice_cobertura_total': {
             'sheet': 'Residencial',
