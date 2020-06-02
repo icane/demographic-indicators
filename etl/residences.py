@@ -135,6 +135,23 @@ for key in cfg.series:
     df_cant = df_cant.merge(df_esp, on=' - Indicadores')
     indicators.append(df_cant)
 
+    # Generate JSON-Stat dataset
+    df = transform(df, cfg.periods.residences)
+    # Exclude rows whose value for Cantabria is NA
+    df = df[df['Cantabria'].notna()]
+    variables = ['Cantabria', 'España']
+    json_file = to_json_stat(
+        df,
+        ['Año'],
+        variables,
+        cfg.series[key].source)
+    json_obj = json.loads(json_file)
+    json_obj['dimension']['Variables']['category']['unit'] = \
+        cfg.series[key].unit
+    json_obj['note'] = cfg.series[key].note
+    json_file = json.dumps(json_obj)
+    write_to_file(json_file, cfg.path.output + cfg.series[key].json)
+
 # Generate CSV global dataset
 df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
