@@ -26,7 +26,7 @@ params = {
                 'Plazas_Centros Residenciales_España',
                 'Plazas_Vivienda para mayores_España',
                 'Usuarios_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 '': {'decimals': 0, 'label': 'Centros, Viviendas, Plazas, Usuarios'}},
             'note': [''],
@@ -40,7 +40,7 @@ params = {
             'label': 'Total',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Total_Cantabria', 'Índice de Cobertura_Total_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -53,7 +53,7 @@ params = {
             'label': 'Centros residenciales',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Centros residenciales_Cantabria', 'Índice de Cobertura_Centros residenciales_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -66,7 +66,7 @@ params = {
             'label': 'Viviendas para mayores',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Viviendas para mayores_Cantabria', 'Índice de Cobertura_Viviendas para mayores_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -79,7 +79,7 @@ params = {
             'label': 'Plazas de financiación pública',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Plazas de financiación pública_Cantabria', 'Índice de Cobertura_Plazas de financiación pública_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -92,7 +92,7 @@ params = {
             'label': 'Plazas de financiación privada',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Plazas de financiación privada_Cantabria', 'Índice de Cobertura_Plazas de financiación privada_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -105,7 +105,7 @@ params = {
             'label': 'Plazas de financiación pública. Residencias',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Plazas de financiación pública. Residencias_Cantabria', 'Índice de Cobertura_Plazas de financiación pública. Residencias_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -118,7 +118,7 @@ params = {
             'label': 'Plazas de financiación privada. Residencias',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Plazas de financiación privada. Residencias_Cantabria', 'Índice de Cobertura_Plazas de financiación privada. Residencias_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -131,7 +131,7 @@ params = {
             'label': 'Plazas de financiación pública.Viviendas',
             'variables': [],
             'rate_vars': ['Índice de Cobertura_Plazas de financiación pública.Viviendas_Cantabria', 'Índice de Cobertura_Plazas de financiación pública.Viviendas_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -144,7 +144,7 @@ params = {
             'label': 'Tasa de ocupación (usuarios/población>=65)*100.',
             'variables': [],
             'rate_vars': ['Tasa de ocupación_Cantabria', 'Tasa de ocupación_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -157,7 +157,7 @@ params = {
             'label': 'Índice de ocupación (usuarios/plazas)*100.',
             'variables': [],
             'rate_vars': ['Índice de ocupación Cantabria', 'Índice de ocupación España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -170,7 +170,7 @@ params = {
             'label': 'Centros Residenciales. Tamaño medio de los centros (Nº medio de plazas por centro)',
             'variables': [],
             'rate_vars': ['Tamaño medio_Centros Residenciales_Cantabria', 'Tamaño medio_Centros Residenciales_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -183,7 +183,7 @@ params = {
             'label': 'Viviendas. Tamaño medio de los centros (Nº medio de plazas por centro)',
             'variables': [],
             'rate_vars': ['Tamaño medio_Viviendas_Cantabria', 'Tamaño medio_Viviendas_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -196,7 +196,7 @@ params = {
             'label': 'Porcentaje Centros públicos',
             'variables': [],
             'rate_vars': ['Porcentaje Centros públicos_Cantabria', 'Porcentaje Centros públicos_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -209,7 +209,7 @@ params = {
             'label': 'Porcentaje Centros privados',
             'variables': [],
             'rate_vars': ['Porcentaje Centros privados_Cantabria', 'Porcentaje Centros privados_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -222,7 +222,7 @@ params = {
             'label': 'Porcentaje plazas de financiación Pública',
             'variables': [],
             'rate_vars': ['Porcentaje plazas de financiación Pública_Cantabria', 'Porcentaje plazas de financiación Pública_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -235,7 +235,7 @@ params = {
             'label': 'Porcentaje plazas de financiación Privada',
             'variables': [],
             'rate_vars': ['Porcentaje plazas de financiación Privada_Cantabria', 'Porcentaje plazas de financiación Privada_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -248,7 +248,7 @@ params = {
             'label': 'Porcentaje de usuarios. Hombres',
             'variables': [],
             'rate_vars': ['Porcentaje de usuarios. Hombres_Cantabria', 'Porcentaje de usuarios. Hombres_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -261,7 +261,7 @@ params = {
             'label': 'Porcentaje de usuarios. Mujeres',
             'variables': [],
             'rate_vars': ['Porcentaje de usuarios. Mujeres_Cantabria', 'Porcentaje de usuarios. Mujeres_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -274,7 +274,7 @@ params = {
             'label': 'Porcentaje usuarios de 65 a 79 sobre total 65 y +',
             'variables': [],
             'rate_vars': ['Porcentaje usuarios de 65 a 79 sobre total 65 y +_Cantabria', 'Porcentaje usuarios de 65 a 79 sobre total 65 y +_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -287,7 +287,7 @@ params = {
             'label': 'Porcentaje usuarios de 65 a 79 sobre total 65 y +. Hombres',
             'variables': [],
             'rate_vars': ['Porcentaje usuarios de 65 a 79 sobre total 65 y +. Hombres_Cantabria', 'Porcentaje usuarios de 65 a 79 sobre total 65 y +. Hombres_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -300,7 +300,7 @@ params = {
             'label': 'Porcentaje usuarios de 65 a 79 sobre total 65 y +. Mujeres',
             'variables': [],
             'rate_vars': ['Porcentaje usuarios de 65 a 79 sobre total 65 y +. Mujeres_Cantabria', 'Porcentaje usuarios de 65 a 79 sobre total 65 y +. Mujeres_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -313,7 +313,7 @@ params = {
             'label': 'Porcentaje usuarios de 80 año y más sobre total 65 y +',
             'variables': [],
             'rate_vars': ['Porcentaje usuarios de 80 año y más sobre total 65 y +_Cantabria', 'Porcentaje usuarios de 80 año y más sobre total 65 y +_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -326,7 +326,7 @@ params = {
             'label': 'Porcentaje usuarios de 80 años y más sobre total 65 y +. Hombres',
             'variables': [],
             'rate_vars': ['Porcentaje usuarios de 80 años y más sobre total 65 y +. Hombres_Cantabria', 'Porcentaje usuarios de 80 años y más sobre total 65 y +. Hombres_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -339,7 +339,7 @@ params = {
             'label': 'Porcentaje usuarios de 80 años y más sobre total 65 y +. Mujeres',
             'variables': [],
             'rate_vars': ['Porcentaje usuarios de 80 años y más sobre total 65 y +. Mujeres_Cantabria', 'Porcentaje usuarios de 80 años y más sobre total 65 y +. Mujeres_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -352,7 +352,7 @@ params = {
             'label': 'Precio en euros por por año y usuario',
             'variables': [],
             'rate_vars': ['Precio público anual. Centros Residenciales_Precio en euros por por año y usuario_Cantabria', 'Precio público anual. Centros Residenciales_Precio en euros por por año y usuario_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -365,7 +365,7 @@ params = {
             'label': 'Aportación promedio del usuario/a. €/año/Usuario',
             'variables': [],
             'rate_vars': ['Precio público anual. Centros Residenciales_Aportación promedio del usuario/a. €/año/Usuario_Cantabria', 'Precio público anual. Centros Residenciales_Aportación promedio del usuario/a. €/año/Usuario_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -378,7 +378,7 @@ params = {
             'label': 'Aportación promedio del usuario/a. Porcentaje sobre el precio',
             'variables': [],
             'rate_vars': ['Precio público anual. Centros Residenciales_Aportación promedio del usuario/a. Porcentaje sobre el precio_Cantabria', 'Precio público anual. Centros Residenciales_Aportación promedio del usuario/a. Porcentaje sobre el precio_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -391,7 +391,7 @@ params = {
             'label': 'Precio en euros por año y usuario',
             'variables': [],
             'rate_vars': ['Precio de concentración anual. Centros Residenciales_Precio en euros por año y usuario_Cantabria', 'Precio de concentración anual. Centros Residenciales_Precio en euros por año y usuario_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -404,7 +404,7 @@ params = {
             'label': 'Aportación promedio del usuario/a. €/año/Usuario',
             'variables': [],
             'rate_vars': ['Precio de concentración anual. Centros Residenciales_Aportación promedio del usuario/a. €/año/Usuario_Cantabria', 'Precio de concentración anual. Centros Residenciales_Aportación promedio del usuario/a. €/año/Usuario_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
@@ -417,7 +417,7 @@ params = {
             'label': 'Aportación promedio del usuario/a. Porcentaje sobre el precio',
             'variables': [],
             'rate_vars': ['Precio de concentración anual. Centros Residenciales_Aportación promedio del usuario/a. Porcentaje sobre el precio_Cantabria', 'Precio de concentración anual. Centros Residenciales_Aportación promedio del usuario/a. Porcentaje sobre el precio_España'],
-            'source': '',
+            'source': 'Servicios Sociales dirigidos a Personas Mayores en España, Instituto de Mayores y Servicios Sociales (IMSERSO).',
             'unit': {
                 'Cantabria': {
                     'decimals': 2, 'label': '%'}, 'España': {
