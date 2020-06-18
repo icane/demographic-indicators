@@ -96,4 +96,6 @@ for key in cfg.series:
 df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
+# Widgets
+
 print('\nEnd of process. Files generated successfully.')

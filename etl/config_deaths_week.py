@@ -456,6 +456,130 @@ params = {
     },
     'globals': {
         'csv': 'vision-global-defunciones-semana.csv'
+    },
+    'widgets_sexo': {
+        'defunciones_sexo': {
+            'sheet': 'Defunciones semanas',
+            'label': 'Defunciones Estimadas por sexo. 2020',
+            'variables': [
+                'Dato base_Cantabria_Hombres',
+                'Dato base_Cantabria_Mujeres',
+                'Dato base_España_Hombres',
+                'Dato base_España_Mujeres',],
+            'source': '',
+            'unit':{
+                'Cantabria_Hombres': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria_Mujeres': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria_Total': {'decimals': 0, 'label': 'Defunciones'},
+                'España_Hombres': {'decimals': 0, 'label': 'Defunciones'},
+                'España_Mujeres': {'decimals': 0, 'label': 'Defunciones'},
+                'España_Total': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-sexo.json-stat'
+        },
+        'defunciones_acumuladas_sexo': {
+            'sheet': 'Defunciones semanas',
+            'label': 'Defunciones Estimadas acumuladas por sexo. 2020',
+            'variables': [
+                'Acumulado en lo que va de año_Cantabria_Hombres',
+                'Acumulado en lo que va de año_Cantabria_Mujeres',
+                'Acumulado en lo que va de año_España_Hombres',
+                'Acumulado en lo que va de año_España_Mujeres'],
+            'source': '',
+            'unit':{
+                'Cantabria_Hombres': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria_Mujeres': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria_Total': {'decimals': 0, 'label': 'Defunciones'},
+                'España_Hombres': {'decimals': 0, 'label': 'Defunciones'},
+                'España_Mujeres': {'decimals': 0, 'label': 'Defunciones'},
+                'España_Total': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-sexo.json-stat'
+        },
+        'defunciones_acumuladas_variacion_anual_sexo': {
+            'sheet': 'Defunciones semanas',
+            'label': 'Variación anual Defunciones Estimadas acumuladas por sexo. 2020',
+            'variables': [
+                'Variación anual del acumulado en lo que va de año_Canatbria_Hombres',
+                'Variación anual del acumulado en lo que va de año_Canatbria_Mujeres',
+                'Variación anual del acumulado en lo que va de año_España_Hombres',
+                'Variación anual del acumulado en lo que va de año_España_Mujeres'],
+            'source': '',
+            'unit':{
+                'Cantabria_Hombres': {'decimals': 0, 'label': '%'},
+                'Cantabria_Mujeres': {'decimals': 0, 'label': '%'},
+                'Cantabria_Total': {'decimals': 0, 'label': '%'},
+                'España_Hombres': {'decimals': 0, 'label': '%'},
+                'España_Mujeres': {'decimals': 0, 'label': '%'},
+                'España_Total': {'decimals': 0, 'label': '%'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-variacion-anual-sexo.json-stat'
+        },
+    },
+    'widgets_edad': {
+        'defunciones_grupos_edad_cantabria': {
+            'sheet': 'Defunciones semanas',
+            'label': 'Defunciones Estimadas por grupos de edad. Cantabria. 2020',
+            'variables': [
+                'Dato base. Hasta 64 años_Cantabria',
+                'Dato base. De 65 a 74 años_Cantabria',
+                'Dato base. De 75 a 79 años_Cantabria',
+                'Dato base. De 80 a 84 años_Cantabria'
+                'Dato base. De 85 y más años_Cantabria'],
+            'source': '',
+            'unit':{
+                'Hasta 64 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 65 a 74 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 75 a 79 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 80 a 84 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 85 y más años': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-grupos-edad-cantabria.json-stat'
+        },
+        'defunciones_acumuladas_grupos_edad_cantabria': {
+            'sheet': 'Defunciones semanas',
+            'label': 'Defunciones Estimadas acumuladas por grupos de edad. Cantabria. 2020',
+            'variables': [
+                'Acumulado en lo que va de año. Hasta 64 años_Cantabria',
+                'Acumulado en lo que va de año. De 65 a 74 años_Cantabria',
+                'Acumulado en lo que va de año. De 75 a 79 años_Cantabria',
+                'Acumulado en lo que va de año. De 80 a 84 años_Cantabria'
+                'Acumulado en lo que va de año. De 85 y más años_Cantabria'],
+            'source': '',
+            'unit':{
+                'Hasta 64 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 65 a 74 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 75 a 79 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 80 a 84 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 85 y más años': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-grupos-edad-cantabria.json-stat'
+        },
+        'defunciones_acumuladas_grupos_edad_cantabria_variacion_anual': {
+            'sheet': 'Defunciones semanas',
+            'label': 'Variación anual Defunciones Estimadas acumuladas por grupos de edad. Cantabria. 2020',
+            'variables': [
+                'Variación anual del acumulado en lo que va de año. Hasta 64 años_Cantabria',
+                'Variación anual del acumulado en lo que va de año. De 65 a 74 años_Cantabria',
+                'Variación anual del acumulado en lo que va de año. De 75 a 79 años_Cantabria',
+                'Variación anual del acumulado en lo que va de año. De 80 a 84 años_Cantabria'
+                'Variación anual del acumulado en lo que va de año. De 85 y más años_Cantabria'],
+            'source': '',
+            'unit':{
+                'Hasta 64 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 65 a 74 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 75 a 79 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 80 a 84 años': {'decimals': 0, 'label': 'Defunciones'},
+                'De 85 y más años': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-grupos-edad-cantabria-variacion-anual.json-stat'
+        }
     }
 }
 
