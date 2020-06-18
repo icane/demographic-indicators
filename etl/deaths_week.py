@@ -31,7 +31,7 @@ def transform(df, periods, prefix=''):
 # Read  input files
 data = xlsx(cfg.path.input)
 
-# Datasets
+# Global dataset
 df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
@@ -75,6 +75,7 @@ for key in cfg.series:
     indicators.append(df_cant)
 
     # Generate JSON-Stat dataset
+    '''
     df = transform(df, cfg.periods.deaths)
     vars = ['Cantabria']
     if (len(cfg.series[key].variables) == 2):
@@ -90,7 +91,7 @@ for key in cfg.series:
     json_obj['note'] = cfg.series[key].note
     json_file = json.dumps(json_obj)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json)
-
+    '''
 # Generate CSV global dataset
 df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
