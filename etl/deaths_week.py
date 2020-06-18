@@ -12,18 +12,17 @@ import pandas as pd
 
 
 def transform(df, periods, prefix=''):
-    """Slice dataframe. Generate time period column.
+    """Slice dataframe.
     
         df (dataframe): dataset
         periods (int): number of time periods
         prefix (str): prefix for time periods
     """
     for i in range(0, len(df)):
-        period1 = str(df.loc[i, 'Año'])
-        period2 = '{:0>2}'.format(df.loc[i, 'Semana'])
-        df.loc[i, 'period'] =  prefix + period1 + '-' + period2
+        period1 = str(df.loc[i, 'Semana'])
+        df.loc[i, 'period'] =  prefix + period1
 
-    df.drop(columns={'Año', 'Semana'}, axis=1, inplace=True)
+    df.drop(columns={'Semana'}, axis=1, inplace=True)
     df.rename(columns={'period': 'Semana'}, inplace=True)
     df = df.tail(periods)
     df = df.round(2)
@@ -37,7 +36,7 @@ df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
     variables = [
-        'Año', 'Semana',
+        'Semana',
         cfg.series[key].variables[0]]
     if (len(cfg.series[key].variables) == 2):
         variables.append(cfg.series[key].variables[1])
@@ -58,19 +57,15 @@ for key in cfg.series:
                 cfg.series[key].variables[1]: 'España'}, 
             inplace=True)
 
-    # Remove .0 from Año and Semana
-    df['Año'] = df['Año'].astype(str).replace('\.0', '', regex=True)
-    df['Semana'] = df['Semana'].astype(str).replace('\.0', '', regex=True)
-
     # Merge global dataset
-    df_cant = df[['Año', 'Semana', 'Cantabria']].copy()
+    df_cant = df[['Semana', 'Cantabria']].copy()
     df_cant = transform(df_cant, cfg.periods.global_deaths, 'Cantabria - ')
     df_cant.set_index('Semana', inplace=True)
     df_cant = df_cant.transpose()
     df_cant.insert(0, 'Categoria', cfg.series[key].category)
     df_cant[' - Indicadores'] = cfg.series[key].label
     if (len(cfg.series[key].variables) == 2):
-        df_esp = df[['Año', 'Semana', 'España']].copy()
+        df_esp = df[['Semana', 'España']].copy()
         df_esp = transform(df_esp, cfg.periods.global_deaths, 'España - ')
         df_esp.set_index('Semana', inplace=True)
         df_esp = df_esp.transpose()
