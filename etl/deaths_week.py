@@ -97,5 +97,23 @@ df_global = pd.concat(indicators, axis=0, verify_integrity=False)
 df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
 # Widgets
+for key in cfg.widgets:
+    variables = ['Semana']
+    variables.extend(cfg.widgets[key].variables)
+    df = data[cfg.file][cfg.widgets[key].sheet][variables].copy()
+    df.dropna(axis=0, how='all', inplace=True)
+    df = df.round(2)
+    json_file = to_json_stat(
+        df,
+        ['Semana'],
+        cfg.widgets[key].variables,
+        cfg.widgets[key].source)
+    json_obj = json.loads(json_file)
+    json_obj['dimension']['Variables']['category']['unit'] = \
+        cfg.widgets[key].unit
+    json_obj['note'] = cfg.widgets[key].note
+    json_file = json.dumps(json_obj)
+    write_to_file(json_file, cfg.path.output + cfg.widgets[key].json)
+
 
 print('\nEnd of process. Files generated successfully.')
