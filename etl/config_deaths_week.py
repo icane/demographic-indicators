@@ -586,33 +586,35 @@ params = {
         }
     },
     'graphs': {
-        'defunciones_cantabria': {
-            'sheet': 'Defunciones 2019-2020',
+        'defunciones_cantabria_2020': {
+            'sheet': 'Defunciones 2020',
             'label': 'Defunciones por semana Cantabria',
             'variables': [
-                'Cantabria 2019',
-                'Cantabria 2020'],
+                'Hombres',
+                'Mujeres'],
             'source': '',
             'unit':{
-                'Cantabria 2019': {'decimals': 0, 'label': 'Defunciones'},
-                'Cantabria 2020': {'decimals': 0, 'label': 'Defunciones'}
+                'Hombres': {'decimals': 0, 'label': 'Defunciones'},
+                'Mujeres': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
-            'json': 'defunciones-cantabria-graph.json-stat'
+            'json': 'defunciones-cantabria-2020-graph.json-stat'
         },
-        'defunciones_acumuladas_cantabria': {
-            'sheet': 'Defunciones acumuladas 2019-2020',
+        'defunciones_acumuladas_cantabria_2020': {
+            'sheet': 'Defunciones acumuladas 2020',
             'label': 'Defunciones acumuladas por semana. Cantabria',
             'variables': [
-                'Cantabria 2019',
-                'Cantabria 2020'],
+                'Hombres',
+                'Mujeres',
+                'Total'],
             'source': '',
             'unit':{
-                'Cantabria 2019': {'decimals': 0, 'label': 'Defunciones'},
-                'Cantabria 2020': {'decimals': 0, 'label': 'Defunciones'}
+                'Hombres': {'decimals': 0, 'label': 'Defunciones'},
+                'Mujeres': {'decimals': 0, 'label': 'Defunciones'},
+                'Total': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
-            'json': 'defunciones-acumuladas-cantabria-graph.json-stat'
+            'json': 'defunciones-acumuladas-cantabria-2020-graph.json-stat'
         },
         'defunciones_acumuladas_variacion_anual_2019_2020': {
             'sheet': 'Defunciones variación anual acumulado 2019-2020',
