@@ -584,6 +584,72 @@ params = {
             'note': [''],
             'json': 'defunciones-acumuladas-grupos-edad-cantabria-variacion-anual.json-stat'
         }
+    },
+    'graphs': {
+        'defunciones_cantabria': {
+            'sheet': 'Defunciones 2019-2020',
+            'label': 'Defunciones por semana Cantabria',
+            'variables': [
+                'Cantabria 2019',
+                'Cantabria 2020'],
+            'source': '',
+            'unit':{
+                'Cantabria 2019': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria 2020': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-cantabria-graph.json-stat'
+        },
+        'defunciones_acumuladas_cantabria': {
+            'sheet': 'Defunciones acumuladas 2019-2020',
+            'label': 'Defunciones acumuladas por semana. Cantabria',
+            'variables': [
+                'Cantabria 2019',
+                'Cantabria 2020'],
+            'source': '',
+            'unit':{
+                'Cantabria 2019': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria 2020': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-cantabria-graph.json-stat'
+        },
+        'defunciones_acumuladas_variacion_anual_2019_2020': {
+            'sheet': 'Defunciones variación anual acumulado 2019-2020',
+            'label': 'Variación anual del acumulado en lo que va de año',
+            'variables': [
+                'Cantabria 2019',
+                'España 2019',
+                'Cantabria 2020',
+                'España 2020'],
+            'source': '',
+            'unit':{
+                'Cantabria 2019': {'decimals': 0, 'label': '%'},
+                'España 2019': {'decimals': 0, 'label': '%'},
+                'Cantabria 2020': {'decimals': 0, 'label': '%'},
+                'España 2020': {'decimals': 0, 'label': '%'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-variacion-anual-2019-2020-graph.json-stat'
+        },
+        'defunciones_acumuladas_variacion_anual_sexo_2020': {
+            'sheet': 'Defunciones variación anual acumulado sexo 2020',
+            'label': 'Variación anual del acumulado en lo que va de año por sexo. 2020',
+            'variables': [
+                'España Hombres',
+                'España Mujeres',
+                'Cantabria Hombres',
+                'Cantabria Mujeres'],
+            'source': '',
+            'unit':{
+                'España Hombres': {'decimals': 0, 'label': '%'},
+                'España Mujeres': {'decimals': 0, 'label': '%'},
+                'Cantabria Hombres': {'decimals': 0, 'label': '%'},
+                'Cantabria Mujeres': {'decimals': 0, 'label': '%'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-variacion-anual-sexo-2020-graph.json-stat'
+        }
     }
 }
 

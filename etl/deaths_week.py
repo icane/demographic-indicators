@@ -115,5 +115,24 @@ for key in cfg.widgets:
     json_file = json.dumps(json_obj)
     write_to_file(json_file, cfg.path.output + cfg.widgets[key].json)
 
+# Graphs
+for key in cfg.graphs:
+    variables = ['Semana']
+    variables.extend(cfg.graphs[key].variables)
+    df = data[cfg.file][cfg.graphs[key].sheet][variables].copy()
+    df.dropna(axis=0, how='all', inplace=True)
+    df = df.round(2)
+    json_file = to_json_stat(
+        df,
+        ['Semana'],
+        cfg.graphs[key].variables,
+        cfg.graphs[key].source)
+    json_obj = json.loads(json_file)
+    json_obj['dimension']['Variables']['category']['unit'] = \
+        cfg.graphs[key].unit
+    json_obj['note'] = cfg.graphs[key].note
+    json_file = json.dumps(json_obj)
+    write_to_file(json_file, cfg.path.output + cfg.graphs[key].json)
+
 
 print('\nEnd of process. Files generated successfully.')
