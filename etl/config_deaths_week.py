@@ -541,7 +541,7 @@ params = {
                 'De 80 a 84 años': {'decimals': 0, 'label': 'Defunciones'},
                 'De 85 y más años': {'decimals': 0, 'label': 'Defunciones'}
             },
-            'note': [''],
+            'note': ['No se incluyen los datos de edad desconocida'],
             'json': 'defunciones-grupos-edad-cantabria.json-stat'
         },
         'defunciones_acumuladas_grupos_edad_cantabria': {
@@ -561,7 +561,7 @@ params = {
                 'De 80 a 84 años': {'decimals': 0, 'label': 'Defunciones'},
                 'De 85 y más años': {'decimals': 0, 'label': 'Defunciones'}
             },
-            'note': [''],
+            'note': ['No se incluyen los datos de edad desconocida'],
             'json': 'defunciones-acumuladas-grupos-edad-cantabria.json-stat'
         },
         'defunciones_acumuladas_grupos_edad_cantabria_variacion_anual': {
@@ -581,7 +581,7 @@ params = {
                 'De 80 a 84 años': {'decimals': 0, 'label': 'Defunciones'},
                 'De 85 y más años': {'decimals': 0, 'label': 'Defunciones'}
             },
-            'note': [''],
+            'note': ['No se incluyen los datos de edad desconocida'],
             'json': 'defunciones-acumuladas-grupos-edad-cantabria-variacion-anual.json-stat'
         }
     },

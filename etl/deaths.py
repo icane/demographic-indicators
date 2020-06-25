@@ -52,6 +52,7 @@ data = xlsx(cfg.path.input)
 df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
+    print(key)
     variables = [
         'Año', 'Mes',
         cfg.series[key].variables[0],

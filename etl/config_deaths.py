@@ -16,7 +16,7 @@ params = {
                 'TMortalidad_Cantabria',
                 'TMortalidad_España'],
             'moving_avg': [
-                'TMortalidad_Cantabria_MM',
+                'Tmortalidad_Cantabria_MM',
                 'Tmortalidad_España_MM'
             ],
             'source': 'ICANE a partir de la explotación de la estadística de Defunciones del Movimiento Natural de Población, INE',
