@@ -602,6 +602,22 @@ params = {
             'note': [''],
             'json': 'defunciones-cantabria-graph.json-stat'
         },
+        'defunciones_acumuladas_cantabria': {
+            'sheet': 'Defunciones Acumuladas Cantabria Graph',
+            'label': 'Defunciones acumuladas por semana. Cantabria',
+            'variables': [
+                'Cantabria 2019',
+                'Cantabria 2020',
+                'Cantabria 2021'],
+            'source': '',
+            'unit':{
+                'Cantabria 2019': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria 2020': {'decimals': 0, 'label': 'Defunciones'},
+                'Cantabria 2021': {'decimals': 0, 'label': 'Defunciones'}
+            },
+            'note': [''],
+            'json': 'defunciones-acumuladas-cantabria-graph.json-stat'
+        },
         'defunciones_cantabria_2020': {
             'sheet': 'Defunciones 2020',
             'label': 'Defunciones por semana Cantabria',
