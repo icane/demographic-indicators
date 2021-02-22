@@ -1,32 +1,32 @@
-Categoria,Cantabria - 2020SM42,Cantabria - 2020SM43,Cantabria - 2020SM44,Cantabria - 2020SM45,Cantabria - 2020SM46,Cantabria - 2020SM47, - Indicadores,España - 2020SM42,España - 2020SM43,España - 2020SM44,España - 2020SM45,España - 2020SM46,España - 2020SM47
-Mortalidad total,110.0,108.0,115.0,134.0,129.0,112.0,Dato base,8757.0,9704.0,9823.0,10544.0,10150.0,9448.0
-Mortalidad total,5141.0,5248.0,5364.0,5498.0,5627.0,5739.0,Acumulado en lo que va de año,393651.0,403354.0,413178.0,423722.0,433872.0,443321.0
-Mortalidad total,5.69,5.77,5.71,5.96,5.94,5.67,Variación anual del acumulado en lo que va de año,17.74,17.98,18.2,18.61,18.78,18.69
-Mortalidad por sexos,61.0,49.0,58.0,74.0,66.0,61.0,Dato base. Hombres,4610.0,4896.0,4992.0,5405.0,5108.0,4773.0
-Mortalidad por sexos,2498.0,2547.0,2605.0,2679.0,2745.0,2806.0,Acumulado en lo que va de año. Hombres,197233.0,202129.0,207121.0,212526.0,217634.0,222406.0
-Mortalidad por sexos,35.0,40.0,40.0,57.0,61.0,71.0,Diferencia absoluta del acumulado. Hombres,27955.0,29009.0,30129.0,31559.0,32551.0,33138.0
-Mortalidad por sexos,1.42,1.6,1.56,2.17,2.27,2.6,Variación anual del acumulado en lo que va de año. Hombres,16.51,16.76,17.02,17.44,17.59,17.51
-Mortalidad por sexos,49.0,58.0,57.0,61.0,63.0,51.0,Dato base. Mujeres,4147.0,4808.0,4831.0,5140.0,5043.0,4676.0
-Mortalidad por sexos,2643.0,2702.0,2759.0,2819.0,2883.0,2933.0,Acumulado en lo que va de año. Mujeres,196417.0,201225.0,206056.0,211196.0,216239.0,220914.0
-Mortalidad por sexos,242.0,247.0,250.0,252.0,255.0,237.0,Diferencia absoluta del acumulado. Mujeres,31367.0,32474.0,33479.0,34917.0,36040.0,36683.0
-Mortalidad por sexos,10.08,10.06,9.96,9.82,9.7,8.79,Variación anual del acumulado en lo que va de año. Mujeres,19.0,19.24,19.4,19.81,20.0,19.91
-Mortalidad edades,13.0,9.0,17.0,20.0,10.0,8.0,Dato base. Hasta 64 años,1193.0,1294.0,1280.0,1297.0,1259.0,1102.0
-Mortalidad edades,20.0,17.0,24.0,19.0,18.0,23.0,Dato base. De 65 a 74 años,1234.0,1363.0,1374.0,1412.0,1396.0,1290.0
-Mortalidad edades,11.0,11.0,6.0,8.0,10.0,10.0,Dato base. De 75 a 79 años,956.0,1008.0,1129.0,1127.0,1067.0,1065.0
-Mortalidad edades,15.0,15.0,14.0,19.0,16.0,19.0,Dato base. De 80 a 84 años,1365.0,1443.0,1482.0,1671.0,1597.0,1418.0
-Mortalidad edades,51.0,53.0,55.0,68.0,76.0,52.0,Dato base. De 85 y más años,4007.0,4591.0,4559.0,5033.0,4826.0,4568.0
-Mortalidad edades,619.0,629.0,645.0,665.0,674.0,680.0,Acumulado en lo que va de año. Hasta 64 años,50676.0,51970.0,53252.0,54549.0,55810.0,56913.0
-Mortalidad edades,712.0,730.0,754.0,773.0,791.0,813.0,Acumulado en lo que va de año. De 65 a 74 años,52658.0,54021.0,55396.0,56807.0,58202.0,59492.0
-Mortalidad edades,521.0,532.0,539.0,546.0,556.0,566.0,Acumulado en lo que va de año. De 75 a 79 años,41931.0,42939.0,44067.0,45194.0,46262.0,47327.0
-Mortalidad edades,695.0,710.0,724.0,743.0,759.0,778.0,Acumulado en lo que va de año. De 80 a 84 años,59202.0,60645.0,62127.0,63798.0,65395.0,66813.0
-Mortalidad edades,2595.0,2648.0,2702.0,2772.0,2848.0,2899.0,Acumulado en lo que va de año. De 85 y más años,189134.0,193725.0,198284.0,203317.0,208142.0,212710.0
-Mortalidad edades,-54.0,-58.0,-54.0,-48.0,-53.0,-58.0,Diferencia absoluta del acumulado. Hasta 64 años,4096.0,4301.0,4529.0,4681.0,4813.0,4801.0
-Mortalidad edades,62.0,61.0,73.0,61.0,58.0,61.0,Diferencia absoluta del acumulado. De 65 a 74 años,7117.0,7420.0,7745.0,8066.0,8370.0,8514.0
-Mortalidad edades,110.0,105.0,103.0,106.0,101.0,101.0,Diferencia absoluta del acumulado. De 75 a 79 años,8463.0,8717.0,9069.0,9373.0,9595.0,9843.0
-Mortalidad edades,61.0,62.0,57.0,63.0,64.0,68.0,Diferencia absoluta del acumulado. De 80 a 84 años,7695.0,8036.0,8415.0,8932.0,9330.0,9542.0
-Mortalidad edades,99.0,117.0,111.0,128.0,146.0,133.0,Diferencia absoluta del acumulado. De 85 y más años,31902.0,32955.0,33799.0,35367.0,36421.0,37056.0
-Mortalidad edades,-8.02,-8.44,-7.73,-6.73,-7.29,-7.86,Variación anual del acumulado en lo que va de año. Hasta 64 años,8.79,9.02,9.3,9.39,9.44,9.21
-Mortalidad edades,9.54,9.12,10.72,8.57,7.91,8.11,Variación anual del acumulado en lo que va de año. De 65 a 74 años,15.63,15.92,16.25,16.55,16.8,16.7
-Mortalidad edades,26.76,24.59,23.62,24.09,22.2,21.72,Variación anual del acumulado en lo que va de año. De 75 a 79 años,25.29,25.47,25.91,26.17,26.17,26.26
-Mortalidad edades,9.62,9.57,8.55,9.26,9.21,9.58,Variación anual del acumulado en lo que va de año. De 80 a 84 años,14.94,15.27,15.67,16.28,16.64,16.66
-Mortalidad edades,3.97,4.62,4.28,4.84,5.4,4.81,Variación anual del acumulado en lo que va de año. De 85 y más años,20.29,20.5,20.55,21.06,21.21,21.1
+Categoria,Cantabria - 2020SM52,Cantabria - 2020SM53,Cantabria - 2021SM01,Cantabria - 2021SM02,Cantabria - 2021SM03,Cantabria - 2021SM04, - Indicadores,España - 2020SM52,España - 2020SM53,España - 2021SM01,España - 2021SM02,España - 2021SM03,España - 2021SM04
+Mortalidad total,127.0,139.0,113.0,123.0,138.0,115.0,Dato base,9172.0,9393.0,10598.0,11802.0,12585.0,12000.0
+Mortalidad total,6379.0,6519.0,113.0,236.0,374.0,489.0,Acumulado en lo que va de año,491681.0,501074.0,10598.0,22400.0,34985.0,46985.0
+Mortalidad total,6.32,8.65,-9.03,-17.28,-13.04,-13.86,Variación anual del acumulado en lo que va de año,18.5,20.77,22.45,24.45,25.52,24.43
+Mortalidad por sexos,65.0,82.0,66.0,68.0,65.0,68.0,Dato base. Hombres,4794.0,4841.0,5422.0,6095.0,6456.0,6229.0
+Mortalidad por sexos,3173.0,3256.0,66.0,134.0,199.0,267.0,Acumulado en lo que va de año. Hombres,248442.0,253283.0,5422.0,11517.0,17973.0,24202.0
+Mortalidad por sexos,165.0,248.0,12.0,2.0,0.0,1.0,Diferencia absoluta del acumulado. Hombres,38157.0,42998.0,1062.0,2548.0,4139.0,5348.0
+Mortalidad por sexos,5.49,8.24,22.22,1.52,0.0,0.38,Variación anual del acumulado en lo que va de año. Hombres,18.15,20.45,24.36,28.41,29.92,28.37
+Mortalidad por sexos,62.0,57.0,47.0,55.0,74.0,47.0,Dato base. Mujeres,4378.0,4552.0,5177.0,5707.0,6128.0,5771.0
+Mortalidad por sexos,3206.0,3263.0,47.0,101.0,175.0,222.0,Acumulado en lo que va de año. Mujeres,243239.0,247791.0,5177.0,10883.0,17012.0,22782.0
+Mortalidad por sexos,214.0,271.0,-23.0,-52.0,-56.0,-80.0,Diferencia absoluta del acumulado. Mujeres,38610.0,43162.0,882.0,1852.0,2973.0,3876.0
+Mortalidad por sexos,7.15,9.06,-32.86,-33.99,-24.24,-26.49,Variación anual del acumulado en lo que va de año. Mujeres,18.87,21.09,20.54,20.51,21.18,20.5
+Mortalidad edades,26.0,16.0,6.0,15.0,20.0,7.0,Dato base. Hasta 64 años,1233.0,1230.0,1354.0,1385.0,1426.0,1361.0
+Mortalidad edades,11.0,22.0,22.0,17.0,22.0,17.0,Dato base. De 65 a 74 años,1263.0,1293.0,1378.0,1528.0,1635.0,1567.0
+Mortalidad edades,11.0,13.0,11.0,15.0,13.0,11.0,Dato base. De 75 a 79 años,973.0,1022.0,1174.0,1243.0,1325.0,1289.0
+Mortalidad edades,15.0,23.0,20.0,16.0,16.0,22.0,Dato base. De 80 a 84 años,1335.0,1393.0,1544.0,1805.0,2092.0,1932.0
+Mortalidad edades,62.0,66.0,55.0,58.0,67.0,59.0,Dato base. De 85 y más años,4368.0,4452.0,5141.0,5834.0,6098.0,5845.0
+Mortalidad edades,769.0,786.0,6.0,20.0,39.0,46.0,Acumulado en lo que va de año. Hasta 64 años,63203.0,64434.0,1354.0,2743.0,4165.0,5530.0
+Mortalidad edades,874.0,895.0,22.0,39.0,61.0,77.0,Acumulado en lo que va de año. De 65 a 74 años,66260.0,67553.0,1378.0,2907.0,4541.0,6108.0
+Mortalidad edades,621.0,634.0,11.0,27.0,39.0,51.0,Acumulado en lo que va de año. De 75 a 79 años,52312.0,53334.0,1174.0,2417.0,3743.0,5031.0
+Mortalidad edades,884.0,906.0,20.0,37.0,53.0,75.0,Acumulado en lo que va de año. De 80 a 84 años,74034.0,75427.0,1544.0,3349.0,5441.0,7373.0
+Mortalidad edades,3232.0,3298.0,55.0,113.0,180.0,240.0,Acumulado en lo que va de año. De 85 y más años,235804.0,240255.0,5141.0,10976.0,17074.0,22918.0
+Mortalidad edades,-19.0,-2.0,-6.0,-16.0,-10.0,-10.0,Diferencia absoluta del acumulado. Hasta 64 años,5439.0,6670.0,193.0,408.0,562.0,707.0
+Mortalidad edades,50.0,71.0,6.0,2.0,2.0,-3.0,Diferencia absoluta del acumulado. De 65 a 74 años,9657.0,10950.0,199.0,539.0,874.0,1094.0
+Mortalidad edades,119.0,132.0,-3.0,-1.0,-12.0,-15.0,Diferencia absoluta del acumulado. De 75 a 79 años,10625.0,11647.0,275.0,570.0,855.0,1158.0
+Mortalidad edades,96.0,118.0,-6.0,-9.0,-12.0,-7.0,Diferencia absoluta del acumulado. De 80 a 84 años,10820.0,12213.0,336.0,704.0,1335.0,1807.0
+Mortalidad edades,134.0,200.0,-1.0,-25.0,-26.0,-44.0,Diferencia absoluta del acumulado. De 85 y más años,40158.0,44609.0,933.0,2171.0,3465.0,4434.0
+Mortalidad edades,-2.41,-0.25,-50.0,-44.44,-20.41,-17.86,Variación anual del acumulado en lo que va de año. Hasta 64 años,9.42,11.55,16.62,17.47,15.6,14.66
+Mortalidad edades,6.07,8.62,37.5,5.41,3.39,-3.75,Variación anual del acumulado en lo que va de año. De 65 a 74 años,17.06,19.35,16.88,22.76,23.83,21.82
+Mortalidad edades,23.71,26.29,-21.43,-3.57,-23.53,-22.73,Variación anual del acumulado en lo que va de año. De 75 a 79 años,25.49,27.94,30.59,30.86,29.61,29.9
+Mortalidad edades,12.18,14.97,-23.08,-19.57,-18.46,-8.54,Variación anual del acumulado en lo que va de año. De 80 a 84 años,17.12,19.32,27.81,26.62,32.51,32.46
+Mortalidad edades,4.33,6.46,-1.79,-18.12,-12.62,-15.49,Variación anual del acumulado en lo que va de año. De 85 y más años,20.53,22.8,22.17,24.66,25.46,23.99
