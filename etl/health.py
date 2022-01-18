@@ -83,6 +83,7 @@ for key in cfg.series:
     json_obj['note'] = cfg.series[key].note
     json_file = json.dumps(json_obj)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json)
+    print(cfg.series[key].json)
 
 # Generate CSV global dataset
 df_global = pd.concat(indicators, axis=0, verify_integrity=False)

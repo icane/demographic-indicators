@@ -6,7 +6,7 @@ from decouple import config
 
 
 params = {
-    'file': 'Datos_carga_anuales_demo_final.xlsx',
+    'file': 'Datos_carga_anuales_demo.xlsx',
     'series': {
         'profesionales_medicina': {
             'sheet': 'Profesionales sanitarios',

@@ -17,7 +17,7 @@ more-itertools = {index = "pypi",version = "*"}
 pytest = {index = "pypi",version = "*"}
 
 [packages]
-etlstat = {index = "pypi",version = "*"}
+etlstat = {index = "pypi",version = "0.7.1"}
 beautifuldict = {index = "pypi",version = "*"}
 pandas = {index = "pypi",version = "*"}
 pyjstat = {index = "pypi","version >" = "2.2.0"}

@@ -1,6 +1,23 @@
-Categoria,Cantabria - 2019-07,Cantabria - 2019-08,Cantabria - 2019-09,Cantabria - 2019-10,Cantabria - 2019-11,Cantabria - 2019-12, - Indicadores,España - 2019-07,España - 2019-08,España - 2019-09,España - 2019-10,España - 2019-11,España - 2019-12
-Tasas de mortalidad,83.51,79.9,76.64,78.7,87.98,83.68,Tasa de Mortalidad por 100.000 hab,71.18,67.16,63.43,69.37,73.51,76.55
-Tasas de mortalidad,43.3,41.93,37.98,40.73,43.82,39.18,Tasa de mortalidad Hombres/población total por 100.000 hab,35.83,34.1,32.66,35.39,37.72,38.87
-Tasas de mortalidad,40.21,37.98,38.66,37.98,44.16,44.51,Tasa de mortalidad Mujeres/población total por 100.000 hab,35.36,33.06,30.76,33.97,35.79,37.68
-Tasas de mortalidad,88.86,86.04,77.93,83.57,89.92,80.4,Tasa de mortalidad Hombres por 100.000 hab,73.09,69.56,66.63,72.2,76.94,79.28
-Tasas de mortalidad,78.43,74.07,75.41,74.07,86.14,86.81,Tasa de mortalidad Mujeres por 100.000 hab,69.36,64.86,60.35,66.64,70.21,73.92
+Categoria,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria - 2020-09,Cantabria - 2020-10,Cantabria - 2020-11,Cantabria - 2020-12, - Indicadores,España - 2020-07,España - 2020-08,España - 2020-09,España - 2020-10,España - 2020-11,España - 2020-12
+Tasas de mortalidad,86.03,85.86,77.62,88.61,94.79,104.92,Tasa de Mortalidad por 100.000 hab,73.43,76.11,73.0,83.88,89.26,87.95
+Tasas de mortalidad,40.35,39.49,40.18,45.51,50.31,54.61,Tasa de mortalidad Hombres/población total por 100.000 hab,36.66,37.76,37.63,43.56,46.0,45.27
+Tasas de mortalidad,45.68,46.36,37.43,43.1,44.47,50.31,Tasa de mortalidad Mujeres/población total por 100.000 hab,36.76,38.35,35.37,40.33,43.25,42.68
+Tasas de mortalidad,82.82,81.05,82.46,93.39,103.26,112.07,Tasa de mortalidad Hombres por 100.000 hab,74.81,77.04,76.78,88.87,93.87,92.37
+Tasas de mortalidad,91.85,93.23,75.28,86.67,89.44,101.18,Tasa de mortalidad Mujeres por 100.000 hab,72.09,75.21,69.37,79.09,84.82,83.7
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,1.03,2.58,3.61,5.84,15.11,15.28,001-008  I.Enfermedades infecciosas y parasitarias,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,26.1,24.04,21.81,26.1,21.47,24.73,009-041  II.Tumores,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.86,1.55,0.0,0.17,0.17,0.34,"042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad",,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.58,1.37,3.26,4.64,2.92,3.78,"044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas",,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,8.24,7.9,6.87,7.56,5.67,7.73,046-049  V.Trastornos mentales y del comportamiento,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,6.53,6.7,4.81,4.98,6.18,7.9,050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,21.98,20.95,19.58,22.15,22.67,25.24,053-061 IX.Enfermedades del sistema circulatorio,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,6.7,8.41,8.07,7.21,7.38,6.53,062-067  X.Enfermedades del sistema respiratorio,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,3.43,2.92,3.95,3.26,4.81,4.29,068-072  XI.Enfermedades del sistema digestivo,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.52,0.52,0.17,0.34,0.34,073  XII.Enfermedades de la piel y del tejido subcutáneo,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.69,1.2,0.34,1.2,1.89,1.89,074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.23,3.09,1.72,2.58,2.92,3.09,077-080  XIV.Enfermedades del sistema genitourinario,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,,,,,,,"081  XV.Embarazo, parto y puerperio",,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.86,0.0,0.0,0.0,0.17,0.0,082  XVI.Afecciones originadas en el periodo perinatal,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.0,0.17,0.0,0.34,0.0,0.34,"083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas",,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.17,0.69,0.34,0.52,0.34,0.86,"086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,4.29,3.78,2.75,1.89,2.75,2.58,090-102  XX.Causas externas de mortalidad,,,,,,

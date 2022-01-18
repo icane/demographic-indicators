@@ -55,11 +55,9 @@ for key in cfg.series:
     print(key)
     variables = [
         'Año', 'Mes',
-        cfg.series[key].variables[0],
-        cfg.series[key].moving_avg[0]]
+        cfg.series[key].variables[0]]
     if (len(cfg.series[key].variables) == 2):
         variables.append(cfg.series[key].variables[1])
-        variables.append(cfg.series[key].moving_avg[1])
     df = data[cfg.file]\
         [cfg.series[key].sheet][variables].copy()
 
@@ -69,14 +67,12 @@ for key in cfg.series:
     # Rename variables
     df.rename(
         columns={
-            cfg.series[key].variables[0]: 'Cantabria',
-            cfg.series[key].moving_avg[0]: 'Cantabria_MM'},
+            cfg.series[key].variables[0]: 'Cantabria',},
         inplace=True)
     if (len(cfg.series[key].variables) == 2):
         df.rename(
             columns={
-                cfg.series[key].variables[1]: 'España',
-                cfg.series[key].moving_avg[1]: 'España_MM'}, 
+                cfg.series[key].variables[1]: 'España',}, 
             inplace=True)
 
     # Remove .0 from Año and Mes
@@ -102,10 +98,9 @@ for key in cfg.series:
 
     # Generate JSON-Stat dataset
     df = transform(df, cfg.periods.deaths)
-    vars = ['Cantabria', 'Cantabria_MM']
+    vars = ['Cantabria']
     if (len(cfg.series[key].variables) == 2):
         vars.append('España')
-        vars.append('España_MM')
     json_file = to_json_stat(
         df,
         ['Mes'],

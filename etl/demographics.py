@@ -40,9 +40,6 @@ for key in cfg.series:
     variables = [
         'Año',
         cfg.series[key].variables[0], cfg.series[key].variables[1]]
-    if (len(cfg.series[key].moving_avg) == 2):
-        variables.append(cfg.series[key].moving_avg[0])
-        variables.append(cfg.series[key].moving_avg[1])
 
     df = data[cfg.file]\
         [cfg.series[key].sheet][variables].copy()
@@ -56,12 +53,6 @@ for key in cfg.series:
             cfg.series[key].variables[0]: 'Cantabria',
             cfg.series[key].variables[1]: 'España'}, 
         inplace=True)
-    if (len(cfg.series[key].moving_avg) == 2):
-        df.rename(
-            columns={
-                cfg.series[key].moving_avg[0]: 'Cantabria_MM',
-                cfg.series[key].moving_avg[1]: 'España_MM'},
-            inplace=True)
 
     # Remove .0 from Año
     df['Año'] = df['Año'].astype(str).replace('\.0', '', regex=True)
@@ -86,9 +77,6 @@ for key in cfg.series:
     # Exclude rows whose value for Cantabria is NA
     df = df[df['Cantabria'].notna()]
     variables = ['Cantabria', 'España']
-    if (len(cfg.series[key].moving_avg) == 2):
-        variables.append('Cantabria_MM')
-        variables.append('España_MM')
     json_file = to_json_stat(
         df,
         ['Año'],
