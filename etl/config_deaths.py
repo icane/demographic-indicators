@@ -9,7 +9,7 @@ params = {
     'file': 'Datos_carga_mensual_demo.xlsx',
     'series': {
         'mortalidad': {
-            'sheet': 'Defunciones meses',
+            'sheet': 'Defun_meses_media_movil_3meses',
             'label': 'Tasa de Mortalidad por 100.000 hab',
             'category': 'Tasas de mortalidad',
             'variables': [
@@ -30,7 +30,7 @@ params = {
             'json': 'mortalidad.json-stat'
         },
         'mortalidad_hombres_total': {
-            'sheet': 'Defunciones meses',
+            'sheet': 'Defun_meses_media_movil_3meses',
             'label': 'Tasa de mortalidad Hombres/población total por 100.000 hab',
             'category': 'Tasas de mortalidad',
             'variables': [
@@ -51,7 +51,7 @@ params = {
             'json': 'mortalidad-hombres-total.json-stat'
         },
         'mortalidad_mujeres_total': {
-            'sheet': 'Defunciones meses',
+            'sheet': 'Defun_meses_media_movil_3meses',
             'label': 'Tasa de mortalidad Mujeres/población total por 100.000 hab',
             'category': 'Tasas de mortalidad',
             'variables': [
@@ -72,7 +72,7 @@ params = {
             'json': 'mortalidad-mujeres-total.json-stat'
         },
         'mortalidad_hombres': {
-            'sheet': 'Defunciones meses',
+            'sheet': 'Defun_meses_media_movil_3meses',
             'label': 'Tasa de mortalidad Hombres por 100.000 hab',
             'category': 'Tasas de mortalidad',
             'variables': [
@@ -93,7 +93,7 @@ params = {
             'json': 'mortalidad-hombres.json-stat'
         },
         'mortalidad_mujeres': {
-            'sheet': 'Defunciones meses',
+            'sheet': 'Defun_meses_media_movil_3meses',
             'label': 'Tasa de mortalidad Mujeres por 100.000 hab',
             'category': 'Tasas de mortalidad',
             'variables': [

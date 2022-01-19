@@ -2,7 +2,7 @@
 
 from etl.common import to_json_stat, write_to_file
 
-from etl.config_deaths import deaths_cfg as cfg
+from etl.config_deaths_virus import deaths_cfg as cfg
 
 from etlstat.extractor.extractor import xlsx
 
