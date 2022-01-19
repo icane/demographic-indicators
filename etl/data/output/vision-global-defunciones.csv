@@ -1,23 +1,24 @@
-Categoria,Cantabria - 2020-06,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria - 2020-09,Cantabria - 2020-10,Cantabria - 2020-11, - Indicadores,España - 2020-06,España - 2020-07,España - 2020-08,España - 2020-09,España - 2020-10,España - 2020-11
-Tasas de mortalidad,79.79,81.91,83.17,84.03,87.0,96.1,Tasa de Mortalidad por 100.000 hab,70.81,71.49,74.18,77.66,82.05,87.03
-Tasas de mortalidad,37.32,38.87,40.01,41.73,45.33,50.14,Tasa de mortalidad Hombres/población total por 100.000 hab,35.39,35.67,37.35,39.65,42.4,44.94
-Tasas de mortalidad,42.47,43.04,43.16,42.3,41.67,45.96,Tasa de mortalidad Mujeres/población total por 100.000 hab,35.42,35.82,36.83,38.02,39.65,42.09
-Tasas de mortalidad,76.59,79.76,82.11,85.64,93.04,102.9,Tasa de mortalidad Hombres por 100.000 hab,72.21,72.79,76.21,80.9,86.51,91.7
-Tasas de mortalidad,85.41,86.56,86.79,85.06,83.8,92.43,Tasa de mortalidad Mujeres por 100.000 hab,69.47,70.25,72.22,74.56,77.76,82.54
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,3.03,1.89,2.4,4.01,8.19,12.08,001-008  I.Enfermedades infecciosas y parasitarias,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,24.33,24.96,23.98,23.98,23.13,24.1,009-041  II.Tumores,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.69,1.03,0.8,0.57,0.11,0.23,"042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad",,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.86,2.23,2.4,3.09,3.61,3.78,"044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas",,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,6.01,6.75,7.67,7.44,6.7,6.98,046-049  V.Trastornos mentales y del comportamiento,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,5.38,5.95,6.01,5.5,5.32,6.35,050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,20.44,20.61,20.84,20.89,21.47,23.35,053-061 IX.Enfermedades del sistema circulatorio,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,6.3,7.33,7.73,7.9,7.56,7.04,062-067  X.Enfermedades del sistema respiratorio,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.92,2.8,3.43,3.38,4.01,4.12,068-072  XI.Enfermedades del sistema digestivo,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.4,0.46,0.4,0.34,0.29,073  XII.Enfermedades de la piel y del tejido subcutáneo,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.69,0.92,0.74,0.92,1.14,1.66,074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.75,2.52,2.35,2.46,2.4,2.86,077-080  XIV.Enfermedades del sistema genitourinario,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.34,0.29,0.0,0.06,0.06,"081  XV.Embarazo, parto y puerperio",,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.11,0.17,0.06,0.17,0.11,0.23,082  XVI.Afecciones originadas en el periodo perinatal,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.57,0.4,0.4,0.52,0.4,0.57,"083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas",,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,3.03,3.61,3.61,2.8,2.46,2.4,"086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,79.79,81.91,83.17,84.03,87.01,96.11,090-102  XX.Causas externas de mortalidad,,,,,,
+Categoria,Cantabria - 2020-06,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria - 2020-09,Cantabria - 2020-10,Cantabria - 2020-11, - Indicadores,España - 2020-06,España - 2020-07,España - 2020-08,España - 2020-09,España - 2020-10,España - 2020-11,Cantabria - 2020-12
+Tasas de mortalidad,79.79,81.91,83.17,84.03,87.0,96.1,Tasa de Mortalidad por 100.000 hab,70.81,71.49,74.18,77.66,82.05,87.03,
+Tasas de mortalidad,37.32,38.87,40.01,41.73,45.33,50.14,Tasa de mortalidad Hombres/población total por 100.000 hab,35.39,35.67,37.35,39.65,42.4,44.94,
+Tasas de mortalidad,42.47,43.04,43.16,42.3,41.67,45.96,Tasa de mortalidad Mujeres/población total por 100.000 hab,35.42,35.82,36.83,38.02,39.65,42.09,
+Tasas de mortalidad,76.59,79.76,82.11,85.64,93.04,102.9,Tasa de mortalidad Hombres por 100.000 hab,72.21,72.79,76.21,80.9,86.51,91.7,
+Tasas de mortalidad,85.41,86.56,86.79,85.06,83.8,92.43,Tasa de mortalidad Mujeres por 100.000 hab,69.47,70.25,72.22,74.56,77.76,82.54,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,3.03,1.89,2.4,4.01,8.19,12.08,001-008  I.Enfermedades infecciosas y parasitarias,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,24.33,24.96,23.98,23.98,23.13,24.1,009-041  II.Tumores,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.69,1.03,0.8,0.57,0.11,0.23,"042-043  III.Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad",,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.86,2.23,2.4,3.09,3.61,3.78,"044-045  IV.Enfermedades endocrinas, nutricionales y metabólicas",,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,6.01,6.75,7.67,7.44,6.7,6.98,046-049  V.Trastornos mentales y del comportamiento,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,5.38,5.95,6.01,5.5,5.32,6.35,050-052  VI-VIII.Enfermedades del sistema nervioso y de los órganos de los sentidos,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,20.44,20.61,20.84,20.89,21.47,23.35,053-061 IX.Enfermedades del sistema circulatorio,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,6.3,7.33,7.73,7.9,7.56,7.04,062-067  X.Enfermedades del sistema respiratorio,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.92,2.8,3.43,3.38,4.01,4.12,068-072  XI.Enfermedades del sistema digestivo,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.4,0.46,0.4,0.34,0.29,073  XII.Enfermedades de la piel y del tejido subcutáneo,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.69,0.92,0.74,0.92,1.14,1.66,074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.75,2.52,2.35,2.46,2.4,2.86,077-080  XIV.Enfermedades del sistema genitourinario,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.34,0.29,0.0,0.06,0.06,"081  XV.Embarazo, parto y puerperio",,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.11,0.17,0.06,0.17,0.11,0.23,082  XVI.Afecciones originadas en el periodo perinatal,,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.57,0.4,0.4,0.52,0.4,0.57,"083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas",,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,3.03,3.61,3.61,2.8,2.46,2.4,"086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,79.79,81.91,83.17,84.03,87.01,96.11,090-102  XX.Causas externas de mortalidad,,,,,,,
+Tasas de mortalidad,,0.0,9.0,14.0,27.0,79.0,COVID-19 Virus identificado,,,,,,,83.0
