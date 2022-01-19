@@ -15,10 +15,6 @@ params = {
             'variables': [
                 'TMortalidad_Cantabria',
                 'TMortalidad_España'],
-            'moving_avg': [
-                'Tmortalidad_Cantabria_MM',
-                'Tmortalidad_España_MM'
-            ],
             'source': 'ICANE a partir de la explotación de la estadística de Defunciones del Movimiento Natural de Población, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
@@ -36,10 +32,6 @@ params = {
             'variables': [
                 'TMortalidad_Hombres_TOTAL_Cantabria',
                 'TMortalidad_Hombres_TOTAL_España'],
-            'moving_avg': [
-                'Tmortalidad_Hombres_TOTAL_Cantabria_MM',
-                'Tmortalidad_Hombres_TOTAL_España_MM'
-            ],
             'source': 'ICANE a partir de la explotación de la estadística de Defunciones del Movimiento Natural de Población, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
@@ -57,10 +49,6 @@ params = {
             'variables': [
                 'TMortalidad_Mujeres_TOTAL_Cantabria',
                 'TMortalidad_Mujeres_TOTAL_España'],
-            'moving_avg': [
-                'Tmortalidad_Mujeres_TOTAL_Cantabria_MM',
-                'Tmortalidad_Mujeres_TOTAL_España_MM'
-            ],
             'source': 'ICANE a partir de la explotación de la estadística de Defunciones del Movimiento Natural de Población, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
@@ -78,10 +66,6 @@ params = {
             'variables': [
                 'TMortalidad_Hombres_Cantabria',
                 'TMortalidad_Hombres_España'],
-            'moving_avg': [
-                'Tmortalidad_Hombres_Cantabria_MM',
-                'Tmortalidad_Hombres_España_MM'
-            ],
             'source': 'ICANE a partir de la explotación de la estadística de Defunciones del Movimiento Natural de Población, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
@@ -99,10 +83,6 @@ params = {
             'variables': [
                 'TMortalidad_Mujeres_Cantabria',
                 'TMortalidad_Mujeres_España'],
-            'moving_avg': [
-                'Tmortalidad_Mujeres_Cantabria_MM',
-                'Tmortalidad_Mujeres_España_MM'
-            ],
             'source': 'ICANE a partir de la explotación de la estadística de Defunciones del Movimiento Natural de Población, INE',
             'unit':{
                 'Cantabria': {'decimals': 0, 'label': 'Tanto por cienmil'},
