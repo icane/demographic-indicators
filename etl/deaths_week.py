@@ -113,6 +113,7 @@ for key in cfg.widgets:
         cfg.widgets[key].unit
     json_obj['note'] = cfg.widgets[key].note
     json_file = json.dumps(json_obj)
+    print(key)
     write_to_file(json_file, cfg.path.output + cfg.widgets[key].json)
 
 # Graphs
@@ -132,6 +133,7 @@ for key in cfg.graphs:
         cfg.graphs[key].unit
     json_obj['note'] = cfg.graphs[key].note
     json_file = json.dumps(json_obj)
+    print(key)
     write_to_file(json_file, cfg.path.output + cfg.graphs[key].json)
 
 
