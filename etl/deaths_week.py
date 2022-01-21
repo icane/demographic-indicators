@@ -100,6 +100,7 @@ df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 for key in cfg.widgets:
     variables = ['Semana']
     variables.extend(cfg.widgets[key].variables)
+    print(variables)
     df = data[cfg.file][cfg.widgets[key].sheet][variables].copy()
     df.dropna(axis=0, how='all', inplace=True)
     df = df.round(2)
@@ -120,6 +121,7 @@ for key in cfg.widgets:
 for key in cfg.graphs:
     variables = ['Semana']
     variables.extend(cfg.graphs[key].variables)
+    print(variables)
     df = data[cfg.file][cfg.graphs[key].sheet][variables].copy()
     df.dropna(axis=0, how='all', inplace=True)
     df = df.round(2)
