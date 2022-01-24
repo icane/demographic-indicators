@@ -61,7 +61,7 @@ for key in cfg.series:
     df = df.round(2)
     json_file = to_json_stat(
         df,
-        ['Mes'],
+        ['Año', 'Mes'],
         cfg.series[key].variables,
         cfg.series[key].source)
     json_obj = json.loads(json_file)
