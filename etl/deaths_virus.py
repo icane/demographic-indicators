@@ -53,15 +53,14 @@ print(cfg.path.input)
 df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
-    variables = [
-        'Año', 'Mes']
+    variables = ['Mes']
     variables.extend(cfg.series[key].variables)
     df = data[cfg.file][cfg.series[key].sheet][variables].copy()
     df.dropna(axis=0, how='all', inplace=True)
     df = df.round(2)
     json_file = to_json_stat(
         df,
-        ['Año', 'Mes'],
+        ['Mes'],
         cfg.series[key].variables,
         cfg.series[key].source)
     json_obj = json.loads(json_file)
