@@ -21,4 +21,10 @@ Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.1
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.57,0.4,0.4,0.52,0.4,0.57,"083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas",,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,3.03,3.61,3.61,2.8,2.46,2.4,"086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,79.79,81.91,83.17,84.03,87.01,96.11,090-102  XX.Causas externas de mortalidad,,,,,,,
-Tasas de mortalidad,,0.0,9.0,14.0,27.0,79.0,COVID-19 Virus identificado,,,,,,,83.0
+COVID de muerte meses,,0.0,9.0,14.0,27.0,79.0,Virus identificado,,,,,,,83.0
+COVID de muerte meses,,0.0,18.0,30.97,52.33,143.12,Virus identificado,,,,,,,135.84
+COVID de muerte meses,,0.0,18.0,30.97,52.33,143.12,Virus otras causas,,,,,,,135.84
+COVID de muerte meses,,0.0,3.7,0.0,0.0,0.0,Virus otras causas,,,,,,,3.41
+COVID de muerte meses,,0.0,0.0,38.46,0.0,55.56,Virus otras causas,,,,,,,42.55
+COVID de muerte meses,,0.0,0.0,0.0,0.0,0.0,Virus otras causas,,,,,,,0.0
+COVID de muerte meses,,7.37,19.4,56.02,82.01,136.11,Virus otras causas,,,,,,,85.22
