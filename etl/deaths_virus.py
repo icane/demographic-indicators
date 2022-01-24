@@ -53,71 +53,28 @@ print(cfg.path.input)
 df_global = pd.DataFrame()
 indicators = []
 for key in cfg.series:
-    print(key)
     variables = [
-        'Año', 'Mes',
-        cfg.series[key].variables[0]]
-    if (len(cfg.series[key].variables) == 2):
-        variables.append(cfg.series[key].variables[1])
-    df = data[cfg.file]\
-        [cfg.series[key].sheet][variables].copy()
-
-    # Drop NA rows, if any
+        'Año', 'Mes']
+    variables.extend(cfg.series[key].variables)
+    df = data[cfg.file][cfg.series[key].sheet][variables].copy()
     df.dropna(axis=0, how='all', inplace=True)
-
-    # Rename variables
-    df.rename(
-        columns={
-            cfg.series[key].variables[0]: 'Cantabria',},
-        inplace=True)
-    if (len(cfg.series[key].variables) == 2):
-        df.rename(
-            columns={
-                cfg.series[key].variables[1]: 'España',}, 
-            inplace=True)
-
-    # Remove .0 from Año and Mes
-    df['Año'] = df['Año'].astype(str).replace('\.0', '', regex=True)
-    df['Mes'] = df['Mes'].astype(str).replace('\.0', '', regex=True)
-
-    # Merge global dataset
-    df_cant = df[['Año', 'Mes', 'Cantabria']].copy()
-    df_cant = transform(df_cant, cfg.periods.global_deaths, 'Cantabria - ')
-    df_cant.set_index('Mes', inplace=True)
-    df_cant = df_cant.transpose()
-    df_cant.insert(0, 'Categoria', cfg.series[key].category)
-    df_cant[' - Indicadores'] = cfg.series[key].label
-    if (len(cfg.series[key].variables) == 2):
-        df_esp = df[['Año', 'Mes', 'España']].copy()
-        df_esp = transform(df_esp, cfg.periods.global_deaths, 'España - ')
-        df_esp.set_index('Mes', inplace=True)
-        df_esp = df_esp.transpose()
-        df_esp[' - Indicadores'] = cfg.series[key].label
-        df_cant = df_cant.merge(df_esp, on=' - Indicadores')
-
-    indicators.append(df_cant)
-
-    # Generate JSON-Stat dataset
-    df = transform(df, cfg.periods.deaths)
-    vars = ['Cantabria']
-    if (len(cfg.series[key].variables) == 2):
-        vars.append('España')
+    df = df.round(2)
     json_file = to_json_stat(
         df,
         ['Mes'],
-        vars,
+        cfg.series[key].variables,
         cfg.series[key].source)
     json_obj = json.loads(json_file)
     json_obj['dimension']['Variables']['category']['unit'] = \
         cfg.series[key].unit
     json_obj['note'] = cfg.series[key].note
     json_file = json.dumps(json_obj)
-    json_file = replace_month(json_file)
+    print(key)
     write_to_file(json_file, cfg.path.output + cfg.series[key].json)
 
 # Generate CSV global dataset
-df_global = pd.concat(indicators, axis=0, verify_integrity=False)
-print(df_global)
-df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
+# df_global = pd.concat(indicators, axis=0, verify_integrity=False)
+# print(df_global)
+# df_global.to_csv(cfg.path.output + cfg.globals.csv, index=False)
 
 print('\nEnd of process. Files generated successfully.')
