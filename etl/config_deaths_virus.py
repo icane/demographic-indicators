@@ -13,21 +13,21 @@ params = {
             'label': 'Virus identificado',
             'category': 'COVID de muerte meses',
             'variables': [
-                'COVID-19_Virus identificado_Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Cantabria',
-                'Otras causas_Cantabria',
-                'COVID-19_Virus identificado_España',
-                'COVID-19_Virus no identificado (sospechoso)_España',
-                'Otras causas_España',
+                'Virus identificado Cantabria',
+                'Virus no identificado (sospechoso) Cantabria',
+                'Otras causas Cantabria',
+                'Virus identificado España',
+                'Virus no identificado (sospechoso) España',
+                'Otras causas España',
             ],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
-                'COVID-19_Virus identificado_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_España': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_España': {'decimals': 0, 'label': 'Defunciones'}
+                'Virus identificado Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) España': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas España': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
             'json': 'virus_identificado_tabla.json-stat'
@@ -37,25 +37,25 @@ params = {
             'label': 'Virus identificado',
             'category': 'COVID de muerte meses',
             'variables': [
-                'COVID-19_Virus identificado_Tanto x 1.000_Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Cantabria',
-                'Otras causas_Tanto x 1000_Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000.España',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_España',
-                'Otras causas_Tanto x 1000_España',
-                'COVID-19_Virus identificado_Tanto x 1.000_Mujeres Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000_Hombres Cantabria'
+                'Virus identificado Tanto x 1.000 Cantabria',
+                'Virus no identificado (sospechoso) Tanto x 1.000 Cantabria',
+                'Otras causas Tanto x 1000 Cantabria',
+                'Virus identificado Tanto x 1.000.España',
+                'Virus no identificado (sospechoso) Tanto x 1.000 España',
+                'Otras causas Tanto x 1000 España',
+                'Virus identificado Tanto x 1.000 Mujeres Cantabria',
+                'Virus identificado Tanto x 1.000 Hombres Cantabria'
             ],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
-                'COVID-19_Virus identificado_Tanto x 1.000_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000.España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_España': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'}
+                'Virus identificado Tanto x 1.000 Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000.España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 España': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
             'json': 'covid_identificado-1.json-stat'
@@ -65,25 +65,25 @@ params = {
             'label': 'Virus otras causas',
             'category': 'COVID de muerte meses',
             'variables': [
-                'COVID-19_Virus identificado_Tanto x 1.000_Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Cantabria',
-                'Otras causas_Tanto x 1000_Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000.España',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_España',
-                'Otras causas_Tanto x 1000_España',
-                'COVID-19_Virus identificado_Tanto x 1.000_Mujeres Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000_Hombres Cantabria'
+                'Virus identificado Tanto x 1.000 Cantabria',
+                'Virus no identificado (sospechoso) Tanto x 1.000 Cantabria',
+                'Otras causas Tanto x 1000 Cantabria',
+                'Virus identificado Tanto x 1.000.España',
+                'Virus no identificado (sospechoso) Tanto x 1.000 España',
+                'Otras causas Tanto x 1000 España',
+                'Virus identificado Tanto x 1.000 Mujeres Cantabria',
+                'Virus identificado Tanto x 1.000 Hombres Cantabria'
             ],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
-                'COVID-19_Virus identificado_Tanto x 1.000_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000.España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_España': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'}
+                'Virus identificado Tanto x 1.000 Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000.España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 España': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
             'json': 'covid-identificado-cantabria.json-stat'
@@ -93,29 +93,29 @@ params = {
             'label': 'Virus otras causas',
             'category': 'COVID de muerte meses',
             'variables': [
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Mujeres Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Hombres Cantabria',
-                'Otras causas_Tanto x 1000_Mujeres Cantabria',
-                'Otras causas_Tanto x 1000_Hombres Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000_Mujeres España',
-                'COVID-19_Virus identificado_Tanto x 1.000_Hombres España',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Mujeres España',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Hombres España',
-                'Otras causas_Tanto x 1000_Mujeres España',
-                'Otras causas_Tanto x 1000_Hombres España'
+                'Virus no identificado (sospechoso) Tanto x 1.000 Mujeres Cantabria',
+                'Virus no identificado (sospechoso) Tanto x 1.000 Hombres Cantabria',
+                'Otras causas Tanto x 1000 Mujeres Cantabria',
+                'Otras causas Tanto x 1000 Hombres Cantabria',
+                'Virus identificado Tanto x 1.000 Mujeres España',
+                'Virus identificado Tanto x 1.000 Hombres España',
+                'Virus no identificado (sospechoso) Tanto x 1.000 Mujeres España',
+                'Virus no identificado (sospechoso) Tanto x 1.000 Hombres España',
+                'Otras causas Tanto x 1000 Mujeres España',
+                'Otras causas Tanto x 1000 Hombres España'
             ],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_Mujeres España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_Hombres España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Mujeres España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Hombres España': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_Mujeres España': {'decimals': 0, 'label': 'Defunciones'},
-                'Otras causas_Tanto x 1000_Hombres España': {'decimals': 0, 'label': 'Defunciones'}
+                'Virus no identificado (sospechoso) Tanto x 1.000 Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 Mujeres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 Hombres Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 Mujeres España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 Hombres España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 Mujeres España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 Hombres España': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 Mujeres España': {'decimals': 0, 'label': 'Defunciones'},
+                'Otras causas Tanto x 1000 Hombres España': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
             'json': 'covid-identificado-sexo.json-stat'
@@ -125,19 +125,19 @@ params = {
             'label': 'Virus otras causas',
             'category': 'COVID de muerte meses',
             'variables': [
-                'COVID-19_Virus identificado_Tanto x 1.000_Hasta 64  años_Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000_65-74 años_Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000_De 75 a 79 años_Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000_De 80 a 84 años_Cantabria',
-                'COVID-19_Virus identificado_Tanto x 1.000_De 85 y +_Cantabria'
+                'Virus identificado Tanto x 1.000 Hasta 64 años Cantabria',
+                'Virus identificado Tanto x 1.000 65-74 años Cantabria',
+                'Virus identificado Tanto x 1.000 De 75 a 79 años Cantabria',
+                'Virus identificado Tanto x 1.000 De 80 a 84 años Cantabria',
+                'Virus identificado Tanto x 1.000 De 85 y + Cantabria'
             ],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
-                'COVID-19_Virus identificado_Tanto x 1.000_Hasta 64  años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_65-74 años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_De 75 a 79 años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_De 80 a 84 años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_De 85 y +_Cantabria': {'decimals': 0, 'label': 'Defunciones'}
+                'Virus identificado Tanto x 1.000 Hasta 64 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 65-74 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 De 75 a 79 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 De 80 a 84 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 De 85 y + Cantabria': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
             'json': 'covid-identificado-tasas.json-stat'
@@ -147,19 +147,19 @@ params = {
             'label': 'Virus otras causas',
             'category': 'COVID de muerte meses',
             'variables': [
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Hasta 64  años_Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_65-74 años_Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_De 75 a 79 años_Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_De 80 a 84 años_Cantabria',
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_De 85 y +_Cantabria'
+                'Virus no identificado (sospechoso) Tanto x 1.000 Hasta 64 años Cantabria',
+                'Virus no identificado (sospechoso) Tanto x 1.000 65-74 años Cantabria',
+                'Virus no identificado (sospechoso) Tanto x 1.000 De 75 a 79 años Cantabria',
+                'Virus no identificado (sospechoso) Tanto x 1.000 De 80 a 84 años Cantabria',
+                'Virus no identificado (sospechoso) Tanto x 1.000 De 85 y + Cantabria'
             ],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_Hasta 64  años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_65-74 años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_De 75 a 79 años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_De 80 a 84 años_Cantabria': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus no identificado (sospechoso)_Tanto x 1.000_De 85 y +_Cantabria': {'decimals': 0, 'label': 'Defunciones'}
+                'Virus no identificado (sospechoso) Tanto x 1.000 Hasta 64 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 65-74 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 De 75 a 79 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 De 80 a 84 años Cantabria': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus no identificado (sospechoso) Tanto x 1.000 De 85 y + Cantabria': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
             'json': 'covid-tasas-edad.json-stat'
@@ -169,19 +169,19 @@ params = {
             'label': 'Virus otras causas',
             'category': 'COVID de muerte meses',
             'variables': [
-                'COVID-19_Virus identificado_Tanto x 1.000_Hasta 64  años_España',
-                'COVID-19_Virus identificado_Tanto x 1.000_65-74 años_España',
-                'COVID-19_Virus identificado_Tanto x 1.000_De 75 a 79 años_España',
-                'COVID-19_Virus identificado_Tanto x 1.000_De 80 a 84 años_España',
-                'COVID-19_Virus identificado_Tanto x 1.000_De 85 y +_España'
+                'Virus identificado Tanto x 1.000 Hasta 64 años España',
+                'Virus identificado Tanto x 1.000 65-74 años España',
+                'Virus identificado Tanto x 1.000 De 75 a 79 años España',
+                'Virus identificado Tanto x 1.000 De 80 a 84 años España',
+                'Virus identificado Tanto x 1.000 De 85 y + España'
             ],
             'source': 'ICANE a partir de la explotación de microdatos de Defunciones por causa de muerte, INE',
             'unit':{
-                'COVID-19_Virus identificado_Tanto x 1.000_Hasta 64  años_España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_65-74 años_España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_De 75 a 79 años_España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_De 80 a 84 años_España': {'decimals': 0, 'label': 'Defunciones'},
-                'COVID-19_Virus identificado_Tanto x 1.000_De 85 y +_España': {'decimals': 0, 'label': 'Defunciones'}
+                'Virus identificado Tanto x 1.000 Hasta 64 años España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 65-74 años España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 De 75 a 79 años España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 De 80 a 84 años España': {'decimals': 0, 'label': 'Defunciones'},
+                'Virus identificado Tanto x 1.000 De 85 y + España': {'decimals': 0, 'label': 'Defunciones'}
             },
             'note': [''],
             'json': 'covid-otras.json-stat'
