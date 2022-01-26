@@ -170,7 +170,7 @@ params = {
         },
     },
     'globals': {
-        'csv': 'vision-global-defunciones-virus.csv'
+        'csv': 'vision-global-defunciones-virus-aux.csv'
     }
 }
 

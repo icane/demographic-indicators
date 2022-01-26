@@ -1,2 +1,7 @@
-Categoria,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria - 2020-09,Cantabria - 2020-10,Cantabria - 2020-11,Cantabria - 2020-12, - Indicadores
-Tasas de mortalidad,0.0,9.0,14.0,27.0,79.0,83.0,COVID-19 Virus identificado
+Categoria,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria - 2020-09,Cantabria - 2020-10,Cantabria - 2020-11,Cantabria - 2020-12, - Indicadores,España - 2020-07,España - 2020-08,España - 2020-09,España - 2020-10,España - 2020-11,España - 2020-12
+Defunciones por COVID-19 por cada 1.000 defunciones,0,18,"30,97","52,33","143,12","135,84",Virus identificado,"9,46","35,55","99,95","148,67","234,03","148,52"
+Defunciones por COVID-19 por cada 1.000 defunciones,2,4,0,"1,94","1,81","1,64",Virus no identificado (sospechoso),"6,3","6,19","5,26","4,58","4,68","3,05"
+Defunciones por COVID-19 por cada 1.000 defunciones,0,"17,39","25,64","64,15","153,58","122,64",Virus identificado. Hombres,"9,1","35,63","105,62",154,"243,89","154,09"
+Defunciones por COVID-19 por cada 1.000 defunciones,0,"18,52","36,7","39,84","131,27","150,17",Virus identificado. Mujeres,"9,82","35,46","93,92","142,91","223,54","142,6"
+Defunciones por COVID-19 por cada 1.000 defunciones,"4,26","4,35",0,"3,77","3,41",0,Virus no identificado (sospechoso). Hombres,"5,99","5,71","5,05","4,95","4,96","3,45"
+Defunciones por COVID-19 por cada 1.000 defunciones,0,"3,7",0,0,0,"3,41",Virus no identificado (sospechoso). Mujeres,"6,61","6,66","5,49","4,19","4,39","2,62"

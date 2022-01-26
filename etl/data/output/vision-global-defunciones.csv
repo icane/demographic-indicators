@@ -1,5 +1,5 @@
 Categoria,Cantabria - 2020-06,Cantabria - 2020-07,Cantabria - 2020-08,Cantabria - 2020-09,Cantabria - 2020-10,Cantabria - 2020-11, - Indicadores,España - 2020-06,España - 2020-07,España - 2020-08,España - 2020-09,España - 2020-10,España - 2020-11,Cantabria - 2020-12
-Tasas de mortalidad,79.79,81.91,83.17,84.03,87.0,96.1,Tasa de Mortalidad por 100.000 hab,70.81,71.49,74.18,77.66,82.05,87.03,
+Tasas de mortalidad,79.79,81.91,83.17,84.03,87,96.1,Tasa de Mortalidad por 100.000 hab,70.81,71.49,74.18,77.66,82.05,87.03,
 Tasas de mortalidad,37.32,38.87,40.01,41.73,45.33,50.14,Tasa de mortalidad Hombres/población total por 100.000 hab,35.39,35.67,37.35,39.65,42.4,44.94,
 Tasas de mortalidad,42.47,43.04,43.16,42.3,41.67,45.96,Tasa de mortalidad Mujeres/población total por 100.000 hab,35.42,35.82,36.83,38.02,39.65,42.09,
 Tasas de mortalidad,76.59,79.76,82.11,85.64,93.04,102.9,Tasa de mortalidad Hombres por 100.000 hab,72.21,72.79,76.21,80.9,86.51,91.7,
@@ -16,15 +16,15 @@ Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.9
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.4,0.46,0.4,0.34,0.29,073  XII.Enfermedades de la piel y del tejido subcutáneo,,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.69,0.92,0.74,0.92,1.14,1.66,074-076  XIII.Enfermedades del sistema osteomuscular y del tejido conjuntivo,,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,2.75,2.52,2.35,2.46,2.4,2.86,077-080  XIV.Enfermedades del sistema genitourinario,,,,,,,
-Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.34,0.29,0.0,0.06,0.06,"081  XV.Embarazo, parto y puerperio",,,,,,,
+Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.34,0.34,0.29,0,0.06,0.06,"081  XV.Embarazo, parto y puerperio",,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.11,0.17,0.06,0.17,0.11,0.23,082  XVI.Afecciones originadas en el periodo perinatal,,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,0.57,0.4,0.4,0.52,0.4,0.57,"083-085  XVII.Malformaciones congénitas, deformidades y anomalías cromosómicas",,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,3.03,3.61,3.61,2.8,2.46,2.4,"086-089  XVIII.Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",,,,,,,
 Defunciones por causa de muerte. Tasas de defunciones por 100.000 habitantes,79.79,81.91,83.17,84.03,87.01,96.11,090-102  XX.Causas externas de mortalidad,,,,,,,
-COVID de muerte meses,,0.0,9.0,14.0,27.0,79.0,Virus identificado,,,,,,,83.0
-COVID de muerte meses,,0.0,18.0,30.97,52.33,143.12,Virus identificado,,,,,,,135.84
-COVID de muerte meses,,0.0,18.0,30.97,52.33,143.12,Virus otras causas,,,,,,,135.84
-COVID de muerte meses,,0.0,3.7,0.0,0.0,0.0,Virus otras causas,,,,,,,3.41
-COVID de muerte meses,,0.0,0.0,38.46,0.0,55.56,Virus otras causas,,,,,,,42.55
-COVID de muerte meses,,0.0,0.0,0.0,0.0,0.0,Virus otras causas,,,,,,,0.0
+COVID de muerte meses,,0,9,14,27,79,Virus identificado,,,,,,,83
+COVID de muerte meses,,0,18,30.97,52.33,143.12,Virus identificado,,,,,,,135.84
+COVID de muerte meses,,0,18,30.97,52.33,143.12,Virus otras causas,,,,,,,135.84
+COVID de muerte meses,,0,3.7,0,0,0,Virus otras causas,,,,,,,3.41
+COVID de muerte meses,,0,0,38.46,0,55.56,Virus otras causas,,,,,,,42.55
+COVID de muerte meses,,0,0,0,0,0,Virus otras causas,,,,,,,0
 COVID de muerte meses,,7.37,19.4,56.02,82.01,136.11,Virus otras causas,,,,,,,85.22
